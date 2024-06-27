@@ -1,0 +1,561 @@
+Name: AuditTags
+Id: g=44b2b35fda534268994d31f6a7b91670
+Type: FolderType
+Children:
+- Name: RecipePar
+  Type: BaseDataVariableType
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [320]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/PARAMETER_1"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: GlobalPar
+  Type: BaseDataVariableType
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [64]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/GLOBAL_PARAMETER"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: TemperatureSetPoint
+  Type: BaseDataVariableType
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [12]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: DynamicLink_0
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/0/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 0
+  - Name: DynamicLink_1
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/1/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 1
+  - Name: DynamicLink_2
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/2/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 2
+  - Name: DynamicLink_3
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/3/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 3
+  - Name: DynamicLink_4
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/4/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 4
+  - Name: DynamicLink_5
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/5/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 5
+  - Name: DynamicLink_6
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/6/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 6
+  - Name: DynamicLink_7
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/7/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 7
+  - Name: DynamicLink_8
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/8/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 8
+  - Name: DynamicLink_9
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/9/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 9
+  - Name: DynamicLink_10
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/10/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 10
+  - Name: DynamicLink_11
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/11/SetPoint"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 11
+- Name: TemperatureAlrmThrshld
+  Type: BaseDataVariableType
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [12]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: DynamicLink_0
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/0/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 0
+  - Name: DynamicLink_1
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/1/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 1
+  - Name: DynamicLink_2
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/2/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 2
+  - Name: DynamicLink_3
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/3/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 3
+  - Name: DynamicLink_4
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/4/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 4
+  - Name: DynamicLink_5
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/5/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 5
+  - Name: DynamicLink_6
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/6/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 6
+  - Name: DynamicLink_7
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/7/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 7
+  - Name: DynamicLink_8
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/8/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 8
+  - Name: DynamicLink_9
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/9/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 9
+  - Name: DynamicLink_10
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/10/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 10
+  - Name: DynamicLink_11
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/11/AlrmThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 11
+- Name: TemperatureStopThrshld
+  Type: BaseDataVariableType
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [12]
+  Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+  Children:
+  - Name: DynamicLink_0
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/0/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 0
+  - Name: DynamicLink_1
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/1/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 1
+  - Name: DynamicLink_2
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/2/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 2
+  - Name: DynamicLink_3
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/3/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 3
+  - Name: DynamicLink_4
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/4/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 4
+  - Name: DynamicLink_5
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/5/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 5
+  - Name: DynamicLink_6
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/6/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 6
+  - Name: DynamicLink_7
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/7/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 7
+  - Name: DynamicLink_8
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/8/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 8
+  - Name: DynamicLink_9
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/9/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 9
+  - Name: DynamicLink_10
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/10/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 10
+  - Name: DynamicLink_11
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/RECIPE/TEMPERATURE_ZONE/11/StopThreshold"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 11

@@ -1,0 +1,1066 @@
+Name: LocalTags
+Id: g=353f435bc3f92c6e562c359703df0e1f
+Type: FolderType
+Children:
+- Name: index_HelpRecipeParameter
+  Id: g=ed77d750d621c644dc3384e9cd639c5f
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: index_HelpGlobalParameter
+  Id: g=aed96937f6620b723b6955345fa1050b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: index_ParameterPanel
+  Id: g=958a2fc2524e93bbed8c295668ed3874
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 1000
+- Name: index_TemperatureZone
+  Id: g=31d4fd705ff656c198ee444adf0a89bd
+  Type: BaseDataVariableType
+  DataType: Int32
+  Description: {"LocaleId":"en-US","Text":"Used show the zone parameters"}
+  Value: 0
+- Name: index_Photo
+  Id: g=5be3bf4914214cd014e3894fba1e5c3b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: index_Alarm
+  Id: g=faaa74137028a6bf29f01c51a59588e8
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: index_ServiceKit
+  Id: g=398dc1e87a1a4576abe564e869975a42
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: index_Motor
+  Id: g=9ea159cc8557db814caeeae9d5c39dc5
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 999
+- Name: index_Robot
+  Id: g=b26a2c77848117f1e43d52de88fb6f4b
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: index_MainPage
+  Id: g=275a68a6fb4486089d3e284e89addda0
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 1
+- Name: option_ParOnlyDifferent
+  Id: g=a85924f5ddb5468d1c9647abe6c65dce
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: option_ParShowAll
+  Id: g=f4a3d191db08f134c35921fbf6b7e03b
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: option_ListConfig
+  Id: g=850e6e5e7ab744eb606506887da9a186
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: option_ShowEmptyRecipe
+  Id: g=a3f99efaf5732efb8981e8db22c234f5
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: system_FunctionsPopupAutoHide
+  Id: g=a67176450d87e2c86e184257750c9d53
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: system_FunctionsPopupOpen
+  Id: g=a9cbf812d9e2c291174bf41d59dad206
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: index_HelpRecipeParameterChanged
+  Id: g=411ffeec98e5a5e0703c5490fee11f57
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Id: g=6ea47bbdb8791ce9ffee17e910d170d0
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../index_HelpRecipeParameter"
+- Name: index_ParameterPanelChanged
+  Id: g=7e9961cc9a088379a2ce5117f635f088
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Id: g=17cca5355306e4da2e1c3707fd219809
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../index_ParameterPanel"
+  - Name: VariableValueChangedEventHandler1
+    Id: g=23902a3060218cddc14029bdac1405a2
+    Type: EventHandler
+    Children:
+    - Name: ListenEventType
+      Id: g=e7abd9659f3d1f0c7887f6c82718d4be
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableValueChangedEvent"
+    - Name: MethodsToCall
+      Id: g=cb445f96de4cab601bec3ffa81674651
+      Type: BaseObjectType
+      Children:
+      - Name: MethodContainer1
+        Id: g=ab2cbb945f46201043f4ee365ddeafb8
+        Type: BaseObjectType
+        Children:
+        - Name: ns=3;ObjectPointer
+          Id: g=38c5d9e6dffdcbadfa25d0246d705424
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: Kind
+            Id: g=51a0b04451d0d0312a6813a27e772ab3
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: DynamicLink
+            Id: g=2a039683433d5950f54b061f383cb138
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../../Commands/VariableCommands@NodeId"
+            Children:
+            - Name: Mode
+              Id: g=a65d65ed7896d11ab9d5439f3de16de9
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: ns=3;Method
+          Id: g=a92d5676ab20b142d7110d3bbf238a05
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Set"
+        - Name: InputArguments
+          Id: g=75d843fab96e2ad86dd3b9f447e3fe4e
+          Type: BaseObjectType
+          Children:
+          - Name: VariableToModify
+            Id: g=3c2bb592741479eac319e23baeb5896e
+            Type: BaseDataVariableType
+            DataType: VariablePointer
+            Description: {"NamespaceIndex":3,"TextId":"SetVariableToModifyDescription"}
+            Value: "/Objects/HMI_6490_V13_0_00_OptxCom0/Model/LocalTags/index_HelpRecipeParameter"
+          - Name: Value
+            Id: g=0b44187ad46fc24db5babb539b1a3034
+            Type: BaseDataVariableType
+            DataType: Int32
+            Description: {"NamespaceIndex":3,"TextId":"SetValueDescription"}
+            Value: 1000
+          - Name: ArrayIndex
+            Id: g=bc4971c6855635fcd8050551f89c6d1d
+            Type: BaseDataVariableType
+            DataType: UInt32
+            Description: {"NamespaceIndex":3,"TextId":"SetArrayIndexDescription"}
+            ValueRank: ScalarOrOneDimension
+            Value: 0
+    - Name: EventArguments
+      Id: g=7f8da1feaa21a92613c5329db304806e
+      Type: VariableValueChangedEvent
+      Children:
+      - Name: VariableNodeId
+        Id: g=900cea37bacce702c46584356d23bdcb
+        Type: BaseVariableType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NewValue
+        Id: g=1ac9d98e4506431c247fad35229279dc
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: OldValue
+        Id: g=603d3dfb504c26a379776048cc1ce3f4
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: EventId
+        Id: g=b20210ee57f7f7d864bc4b6f36e9d4eb
+        Type: PropertyType
+        DataType: ByteString
+        Value: ""
+      - Name: EventType
+        Id: g=914be16790ccdd3df87af65a3373fdf6
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: SourceNode
+        Id: g=c5e887e9327a1b05db0d1a910f2d2f11
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: SourceName
+        Id: g=26ee77c59b9acd070f37550177f1e534
+        Type: PropertyType
+        DataType: String
+        Value: ""
+      - Name: Time
+        Id: g=ced70182165bc8dd614bb6ef2b5ba7d6
+        Type: PropertyType
+        DataType: UtcTime
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: ReceiveTime
+        Id: g=8bd6c2ce6b3d18b19745ff55220012ff
+        Type: PropertyType
+        DataType: UtcTime
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: Message
+        Id: g=0f96ce35d18fae324ffe015a655441f2
+        Type: PropertyType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Severity
+        Id: g=9f84bfd6da3c438a250b491d3618640d
+        Type: PropertyType
+        DataType: UInt16
+        Value: 0
+- Name: system_RequiredRole
+  Id: g=75931e04ecc8446a19d858a76c1f95e4
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: system_ExportRecipes
+  Id: g=1dbb21dc55371e06ce5427b4f2db9ad8
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: LastAlarm
+  Id: g=db3d9b469d02eb270f1ca3622c23f9ed
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: EventLoggerGridFilter
+  Id: g=07c1ba039d68adac88a4a99ae6b4246c
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM \"ParametersEventLogger\""
+- Name: index_Report
+  Id: g=585676ad2fd61307dbf9ad12e6d0a6b8
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: system_ReportDone
+  Id: g=b7e513468379733bca276bd7793107df
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: index_Mover
+  Id: g=9d6de8e7b06f7897e5bd996fabb4ee11
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: IO_ShieldType
+  Id: g=6b57ed478181bb266b330743552e857e
+  Type: BaseDataVariableType
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Value: [1,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+  Children:
+  - Name: DynamicLink_0
+    Id: g=935cc5ddad372f026749c2a4e9d0c573
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/0/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=40f14b225bef24fe10b258255abc105a
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=3c04c2ebd13458e4b1d4169859c42c7f
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 0
+  - Name: DynamicLink_1
+    Id: g=cea49747c1ac7a0e706b2bc74699a0f3
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/1/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=a1da6b89f0950b8c2e180f85ac00d463
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=4c24118f7520bd29ad3564a385e890f2
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 1
+  - Name: DynamicLink_2
+    Id: g=291c9e8bc0f58f75835c4dfe9244b6ea
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/2/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=a739eec5c496253bf7aec74ce871aa50
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=eed2719372c76b2e3f4e0a63d24ab704
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 2
+  - Name: DynamicLink_3
+    Id: g=cf675ebc4f1b285f8aab7f0d0ab70791
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/3/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=98f7d5002a6b451bc4e6775bdb910fab
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=2bc3aef134a14ae4be04ede56bb8b6ee
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 3
+  - Name: DynamicLink_4
+    Id: g=0515670e3bcce0d55031a2109ebe6283
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/4/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=a6e0e6d930d14bc7d314c4ab0258d1a5
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=ed9143966dbbbb161501458b4f7e5f68
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 4
+  - Name: DynamicLink_5
+    Id: g=f6a7ba6ea70561ccb6c0f4cb8ddb04a1
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/5/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=9a3e6d316113278d506889d9800afe57
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=34899a5aa3dab7ce1ce8e6bc2b3ea200
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 5
+  - Name: DynamicLink_6
+    Id: g=a3d1ae1bf5ab4072299562b98d4d35df
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/6/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=5b718cec9e050d777ef3e0786646f5a3
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=897e0d94078d94130e985d363333c367
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 6
+  - Name: DynamicLink_7
+    Id: g=c9ea394123689f509d2935ce0a6456ef
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/7/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=8bff178d6ff442430d0f2f377b9c5868
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=12992c81948bb18618ada16c5a1f4a74
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 7
+  - Name: DynamicLink_8
+    Id: g=8b1bdae189421503955a14037c9203b6
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/8/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=75ef09810706f8370e1d755ab7e329d5
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=2fc23d689b00d4b081cb71cd0d1afd70
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 8
+  - Name: DynamicLink_9
+    Id: g=1ebb2ffd3599333ea945722bfccbcf5b
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/9/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=c5487eaa8d56c38c99bc88b63fef84a8
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=59b13ac87cc749b05536cf7f008e4a52
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 9
+  - Name: DynamicLink_10
+    Id: g=1b182756113caedc6580771eddaf644f
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/10/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=d8b7e840c887412c9196b117588223e9
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=ec53638461aa557d4bfbe22a583c2316
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 10
+  - Name: DynamicLink_11
+    Id: g=789aa2774ec27e5b5e69decf4c14f797
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/11/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=cfb925e4a8f7b7f91e9ac3b7ab260f9e
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=eeb526967815fcfbfa15fbc5571bf9fb
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 11
+  - Name: DynamicLink_12
+    Id: g=65517c1ed5843157a81fe06d197bee2e
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/12/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=08f5ef9573abd8d374bfec3210ed4204
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=454610e105af434256c07fc182391355
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 12
+  - Name: DynamicLink_13
+    Id: g=df675a628457e34b1849a01edf673a83
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/13/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=f560ae23f1c63d7c14b1295c2c73e376
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=0da855d62200f9dd09dbf995036b7d88
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 13
+  - Name: DynamicLink_14
+    Id: g=2805fbadb1f0e8b3555543363003e078
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/14/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=e022999725842520c8691d8048a6cf55
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=9c84989fa9bbdb8cc99a7ae4ef7f7d90
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 14
+  - Name: DynamicLink_15
+    Id: g=0c0c6dc1183d923d3d06f7e9c588253c
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/15/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=949f4541c98b61530605044a9c71e771
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=59e5390a771e29f3da43f2b71f2f18b5
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 15
+  - Name: DynamicLink_16
+    Id: g=9437c81b18846b790941a14f3931476a
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/16/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=d577ac62ec100118ef97d0740d9c70b4
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=077483fff53cbc06f1ee3b4d6bc25d47
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 16
+  - Name: DynamicLink_17
+    Id: g=41ff33deda314d8552bd5bec91c20833
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/17/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=df6db18f02eb6b27a9ca8a789598e5a7
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=7e38862e482d9edd9d16d0634c0b46ee
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 17
+  - Name: DynamicLink_18
+    Id: g=ed7742fc9640d43b83269ceb8f5e78b5
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/18/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=0607995921c5233fa8e1d1bd288a3d8d
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=9e32cb4d776f2d67bffc24d805f414e9
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 18
+  - Name: DynamicLink_19
+    Id: g=3223c716987ad40e89bd009dcb71c019
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/19/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=cca2d03541c7fb59337e2e6ac850b828
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=cad75c9b2a559ba9f32e00be2d24c629
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 19
+  - Name: DynamicLink_20
+    Id: g=4800bba54eac07dbabc8664085f26412
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/20/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=f831b418285951b3afd17529e2463bba
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=a9ec5a7f8caeb90ae15616d796630938
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 20
+  - Name: DynamicLink_21
+    Id: g=7b41e41b270a6c469c5146c7bfcae5b3
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/21/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=6b13b5ff8cfc2810dae187490f34bb68
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=35f5c331a821afb717987732745c5003
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 21
+  - Name: DynamicLink_22
+    Id: g=faa07f5e1d6968a934d1f9b7bd9cc9aa
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/22/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=159abdf8191d9200d297ad240d27af18
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=8bf5c9007844c21137d059d819190f1b
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 22
+  - Name: DynamicLink_23
+    Id: g=179fdef9c5129f4fd1347394830fa079
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/23/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=a3e7eff465eaf9ff73fbc53022896cd2
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=9b5247882b3f5278c688c2a7e045a1a2
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 23
+  - Name: DynamicLink_24
+    Id: g=4ab9435501aeddbd906b3230d3a64764
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/24/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=b225643aa4417028b85519a064e690d4
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=374ad051a060b273bda5bfb3f64e964b
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 24
+  - Name: DynamicLink_25
+    Id: g=2c34d4d3511e7a5c514177c241942023
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/25/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=251adf7b82e9ffa66edf0d44c7da05a7
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=0a1f07e5650dd64e742b2cc716921696
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 25
+  - Name: DynamicLink_26
+    Id: g=ce4acd97a248db8652936c1fb2fd91d7
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/26/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=c1b665a943c03eeaf7781288d2e9cbe5
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=1aa52f003ec4fe3ef1b04fe16b142470
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 26
+  - Name: DynamicLink_27
+    Id: g=521fb5c3d717c5b8bd870adfeed4466b
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/27/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=fc9cf3cffac9057114783e8d6f52e1e6
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=e36ccc5a9510a84356473074bec4e80d
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 27
+  - Name: DynamicLink_28
+    Id: g=ec07ffa62debede5b8bdcfe84666f5d7
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/28/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=58e8dc1a0bd75d7f68ae3da577dee997
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=d8a3ae70ab27bb9ec2696c6e9c8927c0
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 28
+  - Name: DynamicLink_29
+    Id: g=9d8d276ff4c338fc5ac82d24d287da03
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/29/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=c2e240a170aec2fa295a2d0e63e0823a
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=0b578db79e23031d4eab42c02705471b
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 29
+  - Name: DynamicLink_30
+    Id: g=89b54c46079e4e7fe672669979e7f6ad
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/30/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=aaefca7ef68d1bb8e238e73c311b863a
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=cc22a2c09ada3aa15645a2c422025905
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 30
+  - Name: DynamicLink_31
+    Id: g=9305b0c0392ad17f6764f04e372527d2
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/IO_DATA/31/Shield_Type"
+    Children:
+    - Name: Mode
+      Id: g=69b9c8167cda7f498a5b6995aa5efd24
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+    - Name: ParentArrayIndex
+      Id: g=4daeeda4bf8d09918b8dad04f8bf5573
+      Type: BaseVariableType
+      DataType: UInt32
+      ValueRank: ScalarOrOneDimension
+      Value: 31
+- Name: XTS_Config1
+  Id: g=9894c8b53df478190b94476a484ea0ff
+  Type: BaseObjectType
+  Children:
+  - Name: Straight_section_length
+    Id: g=f8c855414680d612e0a644d88589a2aa
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: Curve_section_length
+    Id: g=b198ffcedda7ec1d74ada29653e3ed8d
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 500.0
+  - Name: Straight_section_length_px
+    Id: g=45ffa4b475470ef3afae4c0588985ed4
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: ExpressionEvaluator1
+      Id: g=1416857825b54ba7b8be9ba0a698ccbe
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Id: g=b5960fabb31e272e5ae6af9e68f385f4
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        Value: "(({0}/250)*118)+30"
+      - Name: ns=3;Source0
+        Id: g=c97e842dc0ec5de93b3dd528fd91ece2
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Id: g=23fe632bad72c76a01d60c11e087ebff
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../Straight_section_length"
+  - Name: Offset
+    Id: g=5239f839cff09123af60e57aa865c14e
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 0
+  - Name: Rotation
+    Id: g=386ea72f34a506d81cbbc223fbb9d304
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 0.0
+  - Name: NumberOfMovers
+    Id: g=7e2e964350c9997c74f4e94fc8c5635e
+    Type: BaseDataVariableType
+    DataType: Int16
+    Value: 30
+    Children:
+    - Name: DynamicLink
+      Id: g=6ab84eadf596925f367321dd589fae5d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/XTS_1_SYSTEM/MoverNumber"
+      Children:
+      - Name: Mode
+        Id: g=903420e18c67c531b5bab7b58a98a4c4
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+- Name: XTS_FirstTimeOpenedChanged
+  Id: g=567af77a086d74e08b0a205476231e08
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Id: g=2567d103b7bca8f94baf348dd371d098
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../XTS_FirstTimeOpened"
+  - Name: VariableValueChangedEventHandler1
+    Id: g=f1c6689450977da07c016d0ee80ba6b7
+    Type: EventHandler
+    Children:
+    - Name: ListenEventType
+      Id: g=30f014e0b5726d61da5fa92e8475dd50
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/EventTypes/BaseEventType/VariableConditionEvent/VariableValueChangedEvent"
+    - Name: MethodsToCall
+      Id: g=3ea8fc7c912698b7cd448db6240b3908
+      Type: BaseObjectType
+      Children:
+      - Name: MethodContainer1
+        Id: g=f241012c2be050ff4c05f12ca26a6b35
+        Type: BaseObjectType
+        Children:
+        - Name: ns=3;ObjectPointer
+          Id: g=4f95c00288d7f8fb95b883f9822c4e1e
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: Kind
+            Id: g=6b424c38970e01aa9e1f3ac76d4d8738
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: DynamicLink
+            Id: g=71b40a8c04562ab4b918d8afd3542263
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../../Commands/CoreCommands@NodeId"
+            Children:
+            - Name: Mode
+              Id: g=4862fd0dd8fa42be0dbc9a1fa8173311
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: ns=3;Method
+          Id: g=1953eaef829c693a30db207931274acc
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "Close"
+      - Name: MethodContainer2
+        Id: g=c785df71d251149dbb7f211807848d3d
+        Type: BaseObjectType
+        Children:
+        - Name: ns=3;ObjectPointer
+          Id: g=0e3bd07ae23d35ed56db0c8665efdb79
+          Type: NodePointer
+          DataType: NodeId
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: Kind
+            Id: g=c91bf92208c9aa3a945205ee67d47a75
+            Type: PropertyType
+            DataType: NodeId
+            Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: DynamicLink
+            Id: g=36b788d17969bb6ef212048cf9dfff83
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../../../../../Commands/UICommands@NodeId"
+            Children:
+            - Name: Mode
+              Id: g=77f7750affe47f2d36cc03176066794b
+              Type: BaseVariableType
+              DataType: DynamicLinkMode
+              Value: 2
+        - Name: ns=3;Method
+          Id: g=b0c0142c0f2fa5b65bc1f81414319358
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "OpenDialog"
+        - Name: InputArguments
+          Id: g=8718db7c9df7cbf7a41bb4d5600dedae
+          Type: BaseObjectType
+          Children:
+          - Name: Dialog
+            Id: g=16bbfc136e83b6e4ae1a5a6a41e391cb
+            Type: BaseDataVariableType
+            DataType: NodeId
+            Description: {"NamespaceIndex":5,"TextId":"OpenDialogDialogDescription"}
+            Value: {"IdType":2,"Id":"b0348551c2dec9359cf48c104e120cbb","Namespace":34}
+          - Name: AliasNode
+            Id: g=0634edf500954553a7df1494b2cdfabd
+            Type: BaseDataVariableType
+            DataType: NodeId
+            Description: {"NamespaceIndex":5,"TextId":"OpenDialogAliasNodeDescription"}
+            ValueRank: ScalarOrOneDimension
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+          - Name: ParentItem
+            Id: g=7e705d110c08c15ee553f9912416a18a
+            Type: BaseDataVariableType
+            DataType: NodeId
+            Description: {"NamespaceIndex":5,"TextId":"OpenDialogParentItemDescription"}
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+        - Name: OutputArguments
+          Id: g=754915d358d62346e236ed4ca0ef7d12
+          Type: BaseObjectType
+          Children:
+          - Name: DialogNodeId
+            Id: g=c179d36e69acccc3b84f7276c3e27eda
+            Type: BaseDataVariableType
+            DataType: NodeId
+            Description: {"NamespaceIndex":5,"TextId":"OpenDialogDialogNodeIdDescription"}
+            Value: {"IdType":0,"Id":0,"Namespace":-1}
+    - Name: EventArguments
+      Id: g=71192ae30f5ba1433006eaf65b1cd1ed
+      Type: VariableValueChangedEvent
+      Children:
+      - Name: VariableNodeId
+        Id: g=fb0280e634bb14daa75bb31b4990b0c4
+        Type: BaseVariableType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: NewValue
+        Id: g=249957330d8bdd08958407cba429edf7
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: OldValue
+        Id: g=2285d88c7f5281f8624060608bd596f3
+        Type: BaseVariableType
+        DataType: BaseDataType
+      - Name: EventId
+        Id: g=9495196580ea8cfe4de95b677860393b
+        Type: PropertyType
+        DataType: ByteString
+        Value: ""
+      - Name: EventType
+        Id: g=a649729856ed262f688aa2c0884a5094
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: SourceNode
+        Id: g=95ae96f486e03ca600a063e3bc758ee9
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"IdType":0,"Id":0,"Namespace":-1}
+      - Name: SourceName
+        Id: g=e0f435d8b686dc12f9bf17a373c7346c
+        Type: PropertyType
+        DataType: String
+        Value: ""
+      - Name: Time
+        Id: g=16be8be50794eec8ce20dd433f25b0ef
+        Type: PropertyType
+        DataType: UtcTime
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: ReceiveTime
+        Id: g=675d9f91a18ce5e28cfdaaa84a94119a
+        Type: PropertyType
+        DataType: UtcTime
+        Value: "1601-01-01T00:00:00.0000000"
+      - Name: Message
+        Id: g=284845509908f6dc140a537ec613f870
+        Type: PropertyType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+      - Name: Severity
+        Id: g=afd7c581372a0d2e3c74056e545a58ce
+        Type: PropertyType
+        DataType: UInt16
+        Value: 0
+- Name: system_PlcEmulator
+  Id: g=73710b52df99657a2194976802b79a10
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: index_FunctionMessage
+  Id: g=956a0683280a3d067efb8f94950441f7
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

@@ -1,0 +1,27 @@
+Name: TagImporter
+Type: RAEtherNetIPTagImporter
+OwnerId: ns=2;g=f8202e7d17fc314ac829d74ca31e86f3
+Children:
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: []
+- Name: ImportTypes
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true
+- Name: Mode
+  Type: BaseDataVariableType
+  DataType: FetchModes
+  Value: 1
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///Z:/_Travasi/05_NuovoHMI/10_Applicazione/_PLC Rockwell/PLC_WRAPPER_V35_0_00_OptxCom0_BASE.ACD"

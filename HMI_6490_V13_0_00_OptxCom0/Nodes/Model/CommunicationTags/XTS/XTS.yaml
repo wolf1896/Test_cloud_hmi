@@ -1,0 +1,240 @@
+Name: XTS
+Type: FolderType
+Children:
+- Name: XTS_Mover
+  Id: g=a57274ea24913730d5985d14323dae7e
+  Supertype: BaseObjectType
+  Children:
+  - Name: Number
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: X
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: ""
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"/Objects/HMI_6490_V13_0_00_OptxCom0/CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Program&:XTS_Visualizer/MoverVISPosition/{0}/PosX"}
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number"
+  - Name: Y
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: ""
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"/Objects/HMI_6490_V13_0_00_OptxCom0/CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Program&:XTS_Visualizer/MoverVISPosition/{0}/PosY"}
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number"
+  - Name: R
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: ""
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"/Objects/HMI_6490_V13_0_00_OptxCom0/CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Program&:XTS_Visualizer/MoverVISPosition/{0}/PosZ"}
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number"
+  - Name: FaultCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: ""
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"/Objects/HMI_6490_V13_0_00_OptxCom0/CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/XTS_1_SYSTEM/FaultCode[{0}]"}
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number"
+  - Name: LinearPos
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: ""
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        ModellingRule: Optional
+        Value: 2
+      - Name: DynamicLinkFormatter
+        Type: StringFormatter
+        Children:
+        - Name: Format
+          Type: BaseDataVariableType
+          DataType: LocalizedText
+          ReferenceType: HasParameter
+          ModellingRule: Optional
+          Value: {"LocaleId":"en-US","Text":"/Objects/HMI_6490_V13_0_00_OptxCom0/CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/XTS_1_SYSTEM/Position[{0}]"}
+        - Name: ns=3;Source0
+          Type: BaseDataVariableType
+          DataType: BaseDataType
+          ReferenceType: HasSource
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "../../../../Number"
+- Name: XTS_System
+  Id: g=678826c20a92ed219dcad28a8e2143da
+  Supertype: BaseObjectType
+  Children:
+  - Name: State
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: TotalPath
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: DCLinkVoltage
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: AuxiliaryVoltage
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MoverInErrorID
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MoverInErrorCode
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: HomeDone
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: RunConsent
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: RecoveryInProgress
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: CounterKmReset
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: MoverNumber
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: MinLoad
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: MedLoad
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: MaxLoad
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: CounterKmExpired
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false

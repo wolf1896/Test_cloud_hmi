@@ -1,0 +1,321 @@
+Key\en-US\it-IT\th-TH
+RECIPE_PAR000\FEED CHAIN: Pitch [mm]\CATENA DI ALIMENTAZIONE: Passo tra gli spintori [mm]\
+RECIPE_PAR001\FEED CHAIN: Motor torque limit [%]\CATENA DI ALIMENTAZIONE: Limite coppia motore [%]\
+RECIPE_PAR002\FEED CHAIN: Product presence check cam begin [degrees]\PRESENZA PRODOTTO IN CATENA: Inizio camma controllo [gradi] \
+RECIPE_PAR003\FEED CHAIN: Product presence check cam end [degrees]\PRESENZA PRODOTTO IN CATENA: Fine camma controllo [gradi] \
+RECIPE_PAR004\FEED CHAIN: Number of chain pitches per final pack\CATENA DI ALIMENTAZIONE: Numero di spintori per pacchetto\
+RECIPE_PAR005\JAWS : Product Squeeze threshold [1/100*]\GANASCE: Soglia prodotto pizzicato [%]\
+RECIPE_PAR006\JAWS : Product Squeeze Pack to reject [nr.]\GANASCE: Nr. pacchi da scartare per  prodotto pizzicato [%]\
+RECIPE_PAR007\JAWS : Product Squeeze Reject delay [cycles]\GANASCE: Ritardo scarto prodotto pizzicato [%]\
+RECIPE_PAR008\JAWS: Position stop begin angle [degrees]\GANASCE: Angolo inizio per posizione di arresto in fase [gradi]\
+RECIPE_PAR009\JAWS: Position stop end angle [degrees]\GANASCE: Angolo fine per posizione di arresto in fase [gradi]\
+RECIPE_PAR010\JAWS: Cut position [degrees]\GANASCE: Posizione di taglio [gradi]\
+RECIPE_PAR011\JAWS: Radius [mm]\GANASCE: Raggio primitivo [mm]\
+RECIPE_PAR012\JAWS: Number of blades [N°]\GANASCE: Numero di lame [N?]\
+RECIPE_PAR013\JAWS: Cut seal speed variation [%]\GANASCE: Variazione velocit? di saldatura [%]\
+RECIPE_PAR014\JAWS: Entry angle [degrees]\GANASCE: Angolo di ingresso [gradi]\
+RECIPE_PAR015\JAWS: Leave angle [degrees]\GANASCE: Angolo di uscita [gradi]\
+RECIPE_PAR016\JAWS: Motor torque limit [%]\GANASCE: Limite coppia motore [%]\
+RECIPE_PAR017\.\.\
+RECIPE_PAR018\NO GAP NO SEAL: Enable [0=OFF; 1=ON]\NO GAP NO SEAL: Abilitazione [0=OFF; 1=ON]\
+RECIPE_PAR019\NO GAP NO SEAL: Product check begin cam [degrees]\NO GAP NO SEAL: Inizio camma di controllo prodotto [gradi]\
+RECIPE_PAR020\NO GAP NO SEAL: Product check end cam [degrees]\NO GAP NO SEAL: Fine camma di controllo prodotto [gradi]\
+RECIPE_PAR021\NO GAP NO SEAL: Jaws stop position offset [degrees]\NO GAP NO SEAL: Offset posizione di arresto ganascia [gradi]\
+RECIPE_PAR022\NO GAP NO SEAL: Shift delay [cycles]\NO GAP NO SEAL: Ritardo shift [cicli]\
+RECIPE_PAR023\.\.\
+RECIPE_PAR024\FILM: Cut off length [mm]\FILM: Lunghezza di taglio [mm]\
+RECIPE_PAR025\FILM: Print register [0=OFF; 1=ON]\FILM: Abilitazione centratura stampa [0=OFF; 1=ON]\
+RECIPE_PAR026\FILM: Print register: Max correction [mm/cycle]\FILM: Centratura stampa: Correzione massima [mm/ciclo]\
+RECIPE_PAR027\FILM: Print position [degrees]\FILM: Posizione di stampa [gradi]\
+RECIPE_PAR028\FILM: Print register tolerance [mm]\FILM: Tolleranza errore di stampa [mm]\
+RECIPE_PAR029\FILM: Wrapper maximum speed [PPM]\FILM: Soglia bobina in esaurimento [nr.]\
+RECIPE_PAR030\FILM: Vacuum pump mode [1=Inverter; 2=Valve]\.\
+RECIPE_PAR031\FILM: Vacuum quantity [%]\FILM: Velocit? pompa aspirazione nel formatore [%]\
+RECIPE_PAR032\FILM: Junction detection [0=OFF; 1=ON]\FILM: Rilevamento giunzione bobina [0=OFF; 1=ON]\
+RECIPE_PAR033\FILM: Junction detection reject delay [cycles]\FILM: Ritardo espulsione per giunzione bobina [cicli]\
+RECIPE_PAR034\FILM: Tension [thousand %]\FILM: Tensione [millesimi %]\
+RECIPE_PAR035\FILM: Reel splicing syncronism [degrees]\FILM: Sincronismo chiusura rulli del CAB [gradi]\
+RECIPE_PAR036\FILM: Reel splicing delay [cycles]\FILM: Ritardo chiusura rulli del CAB [cicli]\
+RECIPE_PAR037\FILM: Reel splicing speed release delay [cycles]\FILM: Ritardo rilascio velocit? CAB [cicli]\
+RECIPE_PAR038\FILM: Distance between splicing rollers and mark read photoeye [cycles]\FILM: Distanza rulli CAB - fotocellula lettura tacca [cicli]\
+RECIPE_PAR039\FILM: Sealing wheels real development [mm]\FILM: Sviluppo rotanti [mm]\
+RECIPE_PAR040\WRAPPER: Nominal speed [PPM]\CONFEZIONATRICE: Velocit? nominale [PPM]\
+RECIPE_PAR041\WRAPPER: Recovery speed [PPM]\CONFEZIONATRICE: Velocit? di recupero [PPM]\
+RECIPE_PAR042\WRAPPER: Speed increment [%]\CONFEZIONATRICE: Incremento di velocit? [%]\
+RECIPE_PAR043\WRAPPER: Speed decrement [%]\CONFEZIONATRICE: Decremento di velocit? [%]\
+RECIPE_PAR044\WRAPPER: Reel splicing speed [PPM]\CONFEZIONATRICE: Velocit? di CAB [PPM]\
+RECIPE_PAR045\WRAPPER: Jog test speed [PPM]\CONFEZIONATRICE: Velocit? di JOG [PPM]\
+RECIPE_PAR046\WRAPPER: Position stop speed [PPM]\CONFEZIONATRICE: Velocit? per arresto [PPM]\
+RECIPE_PAR047\WRAPPER: Acceleration rate [PPM/sec]\CONFEZIONATRICE: Acceleraz./Decelerazione [PPM/sec]\
+RECIPE_PAR048\CODER: Enable [0=OFF; 1=ON]\DATARIO: Abilitazione [0=OFF; 1=ON]\
+RECIPE_PAR049\CODER: Code position [degrees]\DATARIO: Posizione stampa [gradi]\
+RECIPE_PAR050\CODER: Delay to rejetc missing date packs [cycles]\DATARIO: Ritardo espulsione pacchetti senza data [cicli]\
+RECIPE_PAR051\.\\
+RECIPE_PAR052\AUXILIARY CAM: Begin angle [degrees]\CAMMA AUSILIARIA: Inizio [gradi]\
+RECIPE_PAR053\AUXILIARY CAM: End angle [degrees]\CAMMA AUSILIARIA: Fine [gradi]\
+RECIPE_PAR054\AUXILIARY CAM: Actuator on delay [ms]\CAMMA AUSILIARIA: Ritardo ON attuatore [ms]\
+RECIPE_PAR055\AUXILIARY CAM: Actuator off delay [ms]\CAMMA AUSILIARIA: Ritardo OFF attuatore [ms]\
+RECIPE_PAR056\GUSSETING DEVICE: Begin cam [degrees]\CAMMA SOFFIETTO: Inizio [gradi] \
+RECIPE_PAR057\GUSSETING DEVICE: End cam [degrees]\CAMMA SOFFIETTO: Durata [gradi] \
+RECIPE_PAR058\GUSSETING DEVICE: Actuator delay [ms]\SOFFIETTO: Ritardo intervento attuatore [ms] \
+RECIPE_PAR059\JAWS LUBRICATION DEVICE: Lubrication period [Hours; 0=Off]\.\
+RECIPE_PAR060\.\.\
+RECIPE_PAR061\.\.\
+RECIPE_PAR062\.\.\
+RECIPE_PAR063\.\.\
+RECIPE_PAR064\EXIT BELT: Development [mm/cycle]\NASTRO DI USCITA: Sviluppo [mm/ciclo]\
+RECIPE_PAR065\LINK BELT 1: Development [mm/cycle]\NASTRO DI USCITA: Sincronismo conteggio prodotti buoni [gradi]\
+RECIPE_PAR066\LINK BELT 2: Development [mm/cycle]\\
+RECIPE_PAR067\LINK BELT 3: Development [mm/cycle]\\
+RECIPE_PAR068\.\\
+RECIPE_PAR069\.\\
+RECIPE_PAR070\.\\
+RECIPE_PAR071\.\\
+RECIPE_PAR072\REJECT: Enable [0=OFF; 1=ON]\SCARTI: Abilitazione [0=OFF; 1=ON]\
+RECIPE_PAR073\REJECT: Reject sync [degrees]\SCARTI: Fase espulsione [gradi]\
+RECIPE_PAR074\REJECT: Minimum gap between products [mm]\SCARTI: Distanza minima tra le confezioni [mm]\
+RECIPE_PAR075\.\\
+RECIPE_PAR076\REJECT: Delay for products out of register [cycles]\SCARTI: Ritardo espulsione prodotti con stampa non centrata [cicli]\
+RECIPE_PAR077\REJECT: Delay for overlapped products [cycles]\SCARTI: Ritardo espulsione prodotti dopo CAB [cicli]\
+RECIPE_PAR078\REJECT: Delay for overlapped products to activate NGNS [cycles]\SCARTI: Ritardo NoGapNoSeal per prodotti con sovraincarto [cicli]\
+RECIPE_PAR079\REJECT: Overlapped products to reject [N°]\SCARTI: Prodotti con sovraincarto da espellere [N?]\
+RECIPE_PAR080\REJECT: Burnt product to reject [N°; 0=OFF]\SCARTI: Prodotti bruciati da espellere [N?; 0=OFF]\
+RECIPE_PAR081\REJECT: Burnt products time [s]\SCARTI: Tempo scarto prodotti bruciati alla partenza [s]\
+RECIPE_PAR082\REJECT: Delay to eject burnt products [cycles]\SCARTI: Ritardo espulsione prodotti bruciati [cicli]\
+RECIPE_PAR083\.\\
+RECIPE_PAR084\MISPLACED PRODUCT: Shift distance [cycles]\\
+RECIPE_PAR085\MISPLACED PRODUCT: Reject cam begin [°]\\
+RECIPE_PAR086\MISPLACED PRODUCT: Reject cam end [°]\\
+RECIPE_PAR087\.\\
+RECIPE_PAR088\NO PRODUCT NO BAG: Function type [0=Disable; 1=NPNB; 2=Prime]\NPNB / RIEMPIMENTO: Abilitazione [0=OFF; 1=NPNB; 2=RIEMPIMENTO]\
+RECIPE_PAR089\NO PRODUCT NO BAG: Film lock/unlock smoothing coefficient [%]\NO PRODUCT NO BAG: Coeff. di smorzamento per partenza/arresto film [%]\
+RECIPE_PAR090\NO PRODUCT NO BAG: Delay to stop film [mm]\NPNB / RIEMPIMENTO: Ritardo arresto film [mm]\
+RECIPE_PAR091\NO PRODUCT NO BAG: Begin of pack phase [degrees]\NPNB: Fase inizio pacchetto [gradi]\
+RECIPE_PAR092\NPNB / WRAPPER PRIMING: Product check begin cam [degrees]\NPNB / RIEMPIMENTO: Inizio camma controllo presenza prodotto [gradi]\
+RECIPE_PAR093\NPNB / WRAPPER PRIMING: Product check end cam [degrees]\NPNB / RIEMPIMENTO: Fine camma controllo presenza prodotto [gradi]\
+RECIPE_PAR094\WRAPPER PRIMING: Delay to start film [cycles]\RIEMPIMENTO CONFEZIONATRICE: Ritardo per partenza film [cicli] \
+RECIPE_PAR095\WRAPPER PRIMING: Starting film ramp duration [cycles]\RIEMPIMENTO CONFEZIONATRICE: Rampa per partenza film [cicli] \
+RECIPE_PAR096\OEE: Ideal run rate [PPM]\Ideal run rate for OEE [PPM]\
+RECIPE_PAR097\OEE: Incoming products multiplier\OEE: Moltiplicatore prodotti in ingresso\
+RECIPE_PAR098\OEE: Number of products per pack\Numero di prodotti per pacchetto\
+RECIPE_PAR099\.\\
+RECIPE_PAR100\THERMOREGULATION: Enable [0=OFF; 1=ON]\TERMOREGOLAZIONE: Abilitazione [0=OFF; 1=ON]\
+RECIPE_PAR101\.\.\
+RECIPE_PAR102\.\.\
+RECIPE_PAR103\.\.\
+RECIPE_PAR104\CONNECTING BELT 10: Speed  [m/min]\.\
+RECIPE_PAR105\CONNECTING BELT 11: Speed  [m/min]\.\
+RECIPE_PAR106\CONNECTING BELT 12: Speed  [m/min]\.\
+RECIPE_PAR107\CONNECTING BELT 13: Speed  [m/min]\.\
+RECIPE_PAR108\CONNECTING BELT 14: Speed  [m/min]\.\
+RECIPE_PAR109\CONNECTING BELT 15: Speed  [m/min]\.\
+RECIPE_PAR110\CONNECTING BELT 16: Speed  [m/min]\.\
+RECIPE_PAR111\.\.\
+RECIPE_PAR112\TURNING BELT: Development [mm/cycle]\.\
+RECIPE_PAR113\VERTICAL TURNING BELT: Speed ratio [%]\.\
+RECIPE_PAR114\.\.\
+RECIPE_PAR115\TURNING BELT: Protruding control enable [0=OFF; 1=ON]\.\
+RECIPE_PAR116\.\.\
+RECIPE_PAR117\.\.\
+RECIPE_PAR118\.\.\
+RECIPE_PAR119\.\.\
+RECIPE_PAR120\METAL DETECTOR BELT: Development [mm/cycle]\.\
+RECIPE_PAR121\.\.\
+RECIPE_PAR122\.\.\
+RECIPE_PAR123\.\.\
+RECIPE_PAR124\.\.\
+RECIPE_PAR125\.\.\
+RECIPE_PAR126\.\.\
+RECIPE_PAR127\.\.\
+RECIPE_PAR128\LINK BELT 22: Development [mm/cycle]\.\
+RECIPE_PAR129\.\.\
+RECIPE_PAR130\.\.\
+RECIPE_PAR131\.\.\
+RECIPE_PAR132\.\.\
+RECIPE_PAR133\.\.\
+RECIPE_PAR134\.\.\
+RECIPE_PAR135\.\.\
+RECIPE_PAR136\ACCUMULATION BELTS: Number of products per pack\.\
+RECIPE_PAR137\ACCUMULATION BELTS: Queue on delay [mm]\.\
+RECIPE_PAR138\ACCUMULATION BELTS: Queue off delay [mm]\.\
+RECIPE_PAR139\ACCUMULATION BELTS: Acceleration [m/sec^2]\.\
+RECIPE_PAR140\.\.\
+RECIPE_PAR141\.\.\
+RECIPE_PAR142\.\.\
+RECIPE_PAR143\.\.\
+RECIPE_PAR144\ACCUMULATION: Hold speed delay [mm]\.\
+RECIPE_PAR145\ACCUMULATION: Minimum load on delay [mm]\.\
+RECIPE_PAR146\ACCUMULATION: Minimum load off delay [mm]\.\
+RECIPE_PAR147\ACCUMULATION: Medium load on delay [mm]\.\
+RECIPE_PAR148\ACCUMULATION: Medium load off delay [mm]\.\
+RECIPE_PAR149\ACCUMULATION: Maximum load on delay [mm]\.\
+RECIPE_PAR150\ACCUMULATION: Overfeed timeout [sec]\.\
+RECIPE_PAR151\ACCUMULATION: Jam detect delay [mm]\.\
+RECIPE_PAR152\PRESSURE LIMIT BELT 1: Development [mm/cycle]\.\
+RECIPE_PAR153\PRESSURE LIMIT BELT 2: Development [mm/cycle]\.\
+RECIPE_PAR154\PRESSURE LIMIT BELT 3: Development [mm/cycle]\.\
+RECIPE_PAR155\PRESSURE LIMIT BELT 4: Development [mm/cycle]\.\
+RECIPE_PAR156\.\.\
+RECIPE_PAR157\.\.\
+RECIPE_PAR158\.\.\
+RECIPE_PAR159\.\.\
+RECIPE_PAR160\PHASING BELT: Correction enable [0=Off; 1=On]\.\
+RECIPE_PAR161\PHASING BELT: Development [mm/cycle]\.\
+RECIPE_PAR162\PHASING BELT: Product position [°]\.\
+RECIPE_PAR163\PHASING BELT: Acceleration / Brake threshold [°]\.\
+RECIPE_PAR164\PHASING BELT: Maximum correction [°]\.\
+RECIPE_PAR165\.\.\
+RECIPE_PAR166\.\.\
+RECIPE_PAR167\.\.\
+RECIPE_PAR168\SPACING BELT: Development [mm/cycle]\.\
+RECIPE_PAR169\.\.\
+RECIPE_PAR170\.\.\
+RECIPE_PAR171\.\.\
+RECIPE_PAR172\.\.\
+RECIPE_PAR173\.\.\
+RECIPE_PAR174\.\.\
+RECIPE_PAR175\.\.\
+RECIPE_PAR176\INSERTING BELT: Development [mm/cycle]\.\
+RECIPE_PAR177\MISPLACED PRODUCT CHECK: Product position [°]\.\
+RECIPE_PAR178\MISPLACED PRODUCT CHECK: Error tolerance [0=OFF; °]\.\
+RECIPE_PAR179\.\.\
+RECIPE_PAR180\.\.\
+RECIPE_PAR181\.\.\
+RECIPE_PAR182\.\.\
+RECIPE_PAR183\.\.\
+RECIPE_PAR184\TRISPECTOR: Check enable [0=Off, 1=Enable]\.\
+RECIPE_PAR185\.\.\
+RECIPE_PAR186\TRISPECTOR CHECK: Trigger cam begin [°]\.\
+RECIPE_PAR187\TRISPECTOR CHECK: Reject Side shift distance [cycles]\.\
+RECIPE_PAR188\TRISPECTOR CHECK: Reject Side blow cam begin [°]\.\
+RECIPE_PAR189\.\.\
+RECIPE_PAR190\TRISPECTOR CHECK: Acquisition length [mm]\.\
+RECIPE_PAR191\.\.\
+RECIPE_PAR192\TRISPECTOR PARAMETER: Product Type [1=Biscoff]\.\
+RECIPE_PAR193\TRISPECTOR PARAMETER: Exposure [ms]\.\
+RECIPE_PAR194\TRISPECTOR PARAMETER: Minimum length [mm]\.\
+RECIPE_PAR195\TRISPECTOR PARAMETER: Maximum length [mm]\.\
+RECIPE_PAR196\TRISPECTOR PARAMETER: Minimum width [mm]\.\
+RECIPE_PAR197\TRISPECTOR PARAMETER: Maximum width [mm]\.\
+RECIPE_PAR198\TRISPECTOR PARAMETER: Minimum height [mm]\.\
+RECIPE_PAR199\TRISPECTOR PARAMETER: Maximum height [mm]\.\
+RECIPE_PAR200\.\.\
+RECIPE_PAR201\.\.\
+RECIPE_PAR202\.\.\
+RECIPE_PAR203\.\.\
+RECIPE_PAR204\.\.\
+RECIPE_PAR205\.\.\
+RECIPE_PAR206\.\.\
+RECIPE_PAR207\.\.\
+RECIPE_PAR208\.\.\
+RECIPE_PAR209\.\.\
+RECIPE_PAR210\.\.\
+RECIPE_PAR211\.\.\
+RECIPE_PAR212\.\.\
+RECIPE_PAR213\.\.\
+RECIPE_PAR214\.\.\
+RECIPE_PAR215\.\.\
+RECIPE_PAR216\.\.\
+RECIPE_PAR217\.\.\
+RECIPE_PAR218\.\.\
+RECIPE_PAR219\.\.\
+RECIPE_PAR220\.\.\
+RECIPE_PAR221\.\.\
+RECIPE_PAR222\.\.\
+RECIPE_PAR223\.\.\
+RECIPE_PAR224\.\.\
+RECIPE_PAR225\.\.\
+RECIPE_PAR226\.\.\
+RECIPE_PAR227\.\.\
+RECIPE_PAR228\.\.\
+RECIPE_PAR229\.\.\
+RECIPE_PAR230\.\.\
+RECIPE_PAR231\.\.\
+RECIPE_PAR232\.\.\
+RECIPE_PAR233\.\.\
+RECIPE_PAR234\.\.\
+RECIPE_PAR235\.\.\
+RECIPE_PAR236\.\.\
+RECIPE_PAR237\.\.\
+RECIPE_PAR238\.\.\
+RECIPE_PAR239\.\.\
+RECIPE_PAR240\.\.\
+RECIPE_PAR241\.\.\
+RECIPE_PAR242\.\.\
+RECIPE_PAR243\.\.\
+RECIPE_PAR244\.\.\
+RECIPE_PAR245\.\.\
+RECIPE_PAR246\.\.\
+RECIPE_PAR247\.\.\
+RECIPE_PAR248\.\.\
+RECIPE_PAR249\.\.\
+RECIPE_PAR250\.\.\
+RECIPE_PAR251\.\.\
+RECIPE_PAR252\.\.\
+RECIPE_PAR253\.\.\
+RECIPE_PAR254\.\.\
+RECIPE_PAR255\.\.\
+RECIPE_PAR256\.\.\
+RECIPE_PAR257\.\.\
+RECIPE_PAR258\.\.\
+RECIPE_PAR259\.\.\
+RECIPE_PAR260\.\.\
+RECIPE_PAR261\.\.\
+RECIPE_PAR262\.\.\
+RECIPE_PAR263\.\.\
+RECIPE_PAR264\.\.\
+RECIPE_PAR265\.\.\
+RECIPE_PAR266\.\.\
+RECIPE_PAR267\.\.\
+RECIPE_PAR268\.\.\
+RECIPE_PAR269\.\.\
+RECIPE_PAR270\.\.\
+RECIPE_PAR271\.\.\
+RECIPE_PAR272\.\.\
+RECIPE_PAR273\.\.\
+RECIPE_PAR274\.\.\
+RECIPE_PAR275\.\.\
+RECIPE_PAR276\.\.\
+RECIPE_PAR277\.\.\
+RECIPE_PAR278\.\.\
+RECIPE_PAR279\.\.\
+RECIPE_PAR280\.\.\
+RECIPE_PAR281\.\.\
+RECIPE_PAR282\.\.\
+RECIPE_PAR283\.\.\
+RECIPE_PAR284\.\.\
+RECIPE_PAR285\.\.\
+RECIPE_PAR286\.\.\
+RECIPE_PAR287\.\.\
+RECIPE_PAR288\.\.\
+RECIPE_PAR289\.\.\
+RECIPE_PAR290\.\.\
+RECIPE_PAR291\.\.\
+RECIPE_PAR292\.\.\
+RECIPE_PAR293\.\.\
+RECIPE_PAR294\.\.\
+RECIPE_PAR295\.\.\
+RECIPE_PAR296\.\.\
+RECIPE_PAR297\.\.\
+RECIPE_PAR298\.\.\
+RECIPE_PAR299\.\.\
+RECIPE_PAR300\.\.\
+RECIPE_PAR301\.\.\
+RECIPE_PAR302\.\.\
+RECIPE_PAR303\.\.\
+RECIPE_PAR304\.\.\
+RECIPE_PAR305\.\.\
+RECIPE_PAR306\.\.\
+RECIPE_PAR307\.\.\
+RECIPE_PAR308\.\.\
+RECIPE_PAR309\.\.\
+RECIPE_PAR310\.\.\
+RECIPE_PAR311\.\.\
+RECIPE_PAR312\.\.\
+RECIPE_PAR313\.\.\
+RECIPE_PAR314\.\.\
+RECIPE_PAR315\.\.\
+RECIPE_PAR316\.\.\
+RECIPE_PAR317\.\.\
+RECIPE_PAR318\.\.\
+RECIPE_PAR319\.\.\

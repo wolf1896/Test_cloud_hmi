@@ -1,0 +1,50 @@
+Project:
+ Name: HMI_6490_V13_0_00_OptxCom0_Design
+ ProjectNamespaceIndex: 9
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.3
+ CoreVersion: 3.0
+ Dependencies:
+  2:
+   Uri: HMI_6490_V13_0_00_OptxCom0
+   RelativePath: HMI_6490_V13_0_00_OptxCom0.optix
+  3:
+   Uri: 'urn:FTOptix:Core:Net'
+   Module: FTOptix.Core.Net
+   Version: 1.2
+  4:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 3.1
+  5:
+   Uri: 'urn:FTOptix:CoreBase:Net'
+   Module: FTOptix.CoreBase.Net
+   Version: 1.1
+  6:
+   Uri: 'urn:FTOptix:TagImporter'
+   Module: FTOptix.TagImporter
+   Version: 1.0
+  7:
+   Uri: 'urn:FTOptix:RAEtherNetIPTagImporter'
+   Module: FTOptix.RAEtherNetIPTagImporter
+   Version: 1.0
+  8:
+   Uri: 'urn:FTOptix:NetLogic'
+   Module: FTOptix.NetLogic
+   Version: 1.0
+ Statistics:
+  TotalNodeCount: 6
+  Objects: 1
+  ObjectTypes: 0
+  Variables: 5
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 0
+  ReferenceTypes: 0
+  Files: 1
+ Nodes:
+ - File: DesignTimeNodes/CommDrivers/RAEtherNet_IPDriver/CLX/TagImporter.yaml

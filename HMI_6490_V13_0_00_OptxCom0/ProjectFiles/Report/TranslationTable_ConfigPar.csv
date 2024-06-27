@@ -1,0 +1,201 @@
+Key\en-US\it-IT\th-TH
+CONFIG_PAR000\FEED CHAIN: Motor rotation  [0=CW; 1=CCW]\FEED CHAIN: Motor rotation  [0=CW;  1=CCW]\
+CONFIG_PAR001\FEED CHAIN: Number of teeth on the drive pulley\FEED CHAIN: Number of teeth on the drive pulley\
+CONFIG_PAR002\FEED CHAIN: Links length [mm]\FEED CHAIN: Links length [mm]\
+CONFIG_PAR003\FEED CHAIN: Motor manual  acc. rate [%]\FEED CHAIN: Motor manual acceleration rate [%]\
+CONFIG_PAR004\.\\
+CONFIG_PAR005\.\\
+CONFIG_PAR006\.\\
+CONFIG_PAR007\FIRST WHEELS TILTING: Motor rotation  [0=CW; 1=CCW]\\
+CONFIG_PAR008\SEALING WHEELS: Motor rotation  [0=CW; 1=CCW]\SEALING WHEELS: Motor rotation  [0=CW; 1=CCW]\
+CONFIG_PAR009\UNWINDER: Motor rotation  [0=CW; 1=CCW]\UNWINDER: Motor rotation  [0=CW; 1=CCW]\
+CONFIG_PAR010\.\\
+CONFIG_PAR011\.\\
+CONFIG_PAR012\.\\
+CONFIG_PAR013\FILM: Forming box standby vacuum level threshold [Machine speed PPM]\FILM: Forming box standby vacuum level threshold [Machine speed PPM]\
+CONFIG_PAR014\SEALING WHEELS: Motor manual  acc. rate [%]\SEALING WHEELS: Motor manual acceleration rate [%]\
+CONFIG_PAR015\UNWINDER: Motor manual  acc. rate [%]\UNWINDER: Motor manual acceleration rate [%]\
+CONFIG_PAR016\JAWS: Motor rotation  [0=CW; 1=CCW]\JAWS: Motor rotation  [0=CW; 1=CCW]\
+CONFIG_PAR017\JAWS: Home offset [degrees]\JAWS: Home offset [degrees]\
+CONFIG_PAR018\JAWS: Motor rmanual  acc. rate [%]\JAWS: Motor manual acceleration rate [%]\
+CONFIG_PAR019\.\\
+CONFIG_PAR020\.\\
+CONFIG_PAR021\.\\
+CONFIG_PAR022\.\\
+CONFIG_PAR023\.\\
+CONFIG_PAR024\EXIT BELT: Motor rotation  [0=CW; 1=CCW]\EXIT BELT: Motor rotation  [0=CW; 1=CCW]\
+CONFIG_PAR025\EXIT BELT: Sealing wheels ratio (if motor present = 1)\EXIT BELT: Sealing wheels ratio (if motor present = 1)\
+CONFIG_PAR026\EXIT BELT: Distance between photocell and solenoid valve for reject products [mm]\EXIT BELT: Distance between photocell and solenoid valve for reject products [mm]\
+CONFIG_PAR027\EXIT BELT: Motor manual  acc. rate [%]\EXIT BELT: Motor manual acceleration rate [%]\
+CONFIG_PAR028\.\\
+CONFIG_PAR029\.\\
+CONFIG_PAR030\.\\
+CONFIG_PAR031\.\\
+CONFIG_PAR032\LINK BELT 1: Motor rotation  [0=CW; 1=CCW]\\
+CONFIG_PAR033\LINK BELT 1: Motor manual  acc. rate [%]\\
+CONFIG_PAR034\.\\
+CONFIG_PAR035\LINK BELT 2: Motor rotation  [0=CW; 1=CCW]\\
+CONFIG_PAR036\LINK BELT 2: Motor manual  acc. rate [%]\\
+CONFIG_PAR037\.\\
+CONFIG_PAR038\LINK BELT 3: Motor rotation  [0=CW; 1=CCW]\\
+CONFIG_PAR039\LINK BELT 3: Motor manual  acc. rate [%]\\
+CONFIG_PAR040\CONNECTING BELT 10: Speed at maximum frequency [m/min]\\
+CONFIG_PAR041\CONNECTING BELT 10: Inverter maximum frequency [Hz]\\
+CONFIG_PAR042\.\\
+CONFIG_PAR043\.\\
+CONFIG_PAR044\CONNECTING BELT 11: Speed at maximum frequency [m/min]\\
+CONFIG_PAR045\CONNECTING BELT 11: Inverter maximum frequency [Hz]\\
+CONFIG_PAR046\.\\
+CONFIG_PAR047\.\\
+CONFIG_PAR048\CONNECTING BELT 12: Speed at maximum frequency [m/min]\\
+CONFIG_PAR049\CONNECTING BELT 12: Inverter maximum frequency [Hz]\\
+CONFIG_PAR050\.\\
+CONFIG_PAR051\.\\
+CONFIG_PAR052\CONNECTING BELT 13: Speed at maximum frequency [m/min]\\
+CONFIG_PAR053\CONNECTING BELT 13: Inverter maximum frequency [Hz]\\
+CONFIG_PAR054\.\\
+CONFIG_PAR055\.\\
+CONFIG_PAR056\CONNECTING BELT 14: Speed at maximum frequency [m/min]\\
+CONFIG_PAR057\CONNECTING BELT 14: Inverter maximum frequency [Hz]\\
+CONFIG_PAR058\.\\
+CONFIG_PAR059\.\\
+CONFIG_PAR060\CONNECTING BELT 15: Speed at maximum frequency [m/min]\\
+CONFIG_PAR061\CONNECTING BELT 15: Inverter maximum frequency [Hz]\\
+CONFIG_PAR062\.\\
+CONFIG_PAR063\.\\
+CONFIG_PAR064\CONNECTING BELT 16: Speed at maximum frequency [m/min]\\
+CONFIG_PAR065\CONNECTING BELT 16: Inverter maximum frequency [Hz]\\
+CONFIG_PAR066\.\\
+CONFIG_PAR067\.\\
+CONFIG_PAR068\.\\
+CONFIG_PAR069\.\\
+CONFIG_PAR070\.\\
+CONFIG_PAR071\.\\
+CONFIG_PAR072\TURNING BELT: Motor rotation [0=CW; 1=CCW]\\
+CONFIG_PAR073\TURNING BELT: Motor manual  accelaration  rate [%]\\
+CONFIG_PAR074\TURNING BELT: Distance from protruding photoeye to syncro photoeye [mm]\\
+CONFIG_PAR075\TURNING BELT: Distance from syncro photoeye to blow [mm]\\
+CONFIG_PAR076\VERTICAL TURNING BELT: Motor rotation [0=CW; 1=CCW]\\
+CONFIG_PAR077\VERTICAL TURNING BELT: Motor manual  accelaration  rate [%]\\
+CONFIG_PAR078\.\\
+CONFIG_PAR079\.\\
+CONFIG_PAR080\METALDETECTOR BELT: Motor rotation [0=CW; 1=CCW]\\
+CONFIG_PAR081\METALDETECTOR BELT: Motor manual  accelaration  rate [%]\\
+CONFIG_PAR082\.\\
+CONFIG_PAR083\.\\
+CONFIG_PAR084\.\\
+CONFIG_PAR085\.\\
+CONFIG_PAR086\.\\
+CONFIG_PAR087\.\\
+CONFIG_PAR088\LINK BELT 22: Motor rotation  [0=CW; 1=CCW]\\
+CONFIG_PAR089\LINK BELT 22: Motor manual  accelaration  rate [%]\\
+CONFIG_PAR090\.\\
+CONFIG_PAR091\.\\
+CONFIG_PAR092\.\\
+CONFIG_PAR093\.\\
+CONFIG_PAR094\.\\
+CONFIG_PAR095\.\\
+CONFIG_PAR096\PRESSURE LIMIT BELT1: Motor rotation [0=CW; 1=CCW]\\
+CONFIG_PAR097\PRESSURE LIMIT BELT1: Motor manual  accelaration  rate [%]\\
+CONFIG_PAR098\PRESSURE LIMIT BELT2: Motor rotation [0=CW; 1=CCW]\\
+CONFIG_PAR099\PRESSURE LIMIT BELT2: Motor manual  accelaration  rate [%]\\
+CONFIG_PAR100\PRESSURE LIMIT BELT3: Motor rotation [0=CW; 1=CCW]\\
+CONFIG_PAR101\PRESSURE LIMIT BELT3: Motor manual  accelaration  rate [%]\\
+CONFIG_PAR102\PRESSURE LIMIT BELT4: Motor rotation [0=CW; 1=CCW]\\
+CONFIG_PAR103\PRESSURE LIMIT BELT4: Motor manual  accelaration  rate [%]\\
+CONFIG_PAR104\PHASING BELT: Motor rotation [0=CW; 1=CCW]\\
+CONFIG_PAR105\PHASING BELT: Motor manual  accelaration  rate [%]\\
+CONFIG_PAR106\.\\
+CONFIG_PAR107\.\\
+CONFIG_PAR108\.\\
+CONFIG_PAR109\.\\
+CONFIG_PAR110\.\\
+CONFIG_PAR111\.\\
+CONFIG_PAR112\SPACING BELT: Motor rotation [0=CW; 1=CCW]\\
+CONFIG_PAR113\SPACING BELT: Motor manual  accelaration  rate [%]\\
+CONFIG_PAR114\.\\
+CONFIG_PAR115\.\\
+CONFIG_PAR116\.\\
+CONFIG_PAR117\.\\
+CONFIG_PAR118\.\\
+CONFIG_PAR119\.\\
+CONFIG_PAR120\INSERTING BELT: Motor rotation [0=CW; 1=CCW]\\
+CONFIG_PAR121\INSERTING BELT: Motor manual  accelaration  rate [%]\\
+CONFIG_PAR122\INSERTING BELT: Misplaced blow distance [mm]\\
+CONFIG_PAR123\.\\
+CONFIG_PAR124\.\\
+CONFIG_PAR125\.\\
+CONFIG_PAR126\.\\
+CONFIG_PAR127\.\\
+CONFIG_PAR128\TRISPECTOR CHECK: Protruding Y positive limit [mm]\\
+CONFIG_PAR129\TRISPECTOR CHECK: Protruding Y negative limit [mm]\\
+CONFIG_PAR130\TRISPECTOR CHECK: Encoder direction [0=CW; 1=CCW]\\
+CONFIG_PAR131\.\\
+CONFIG_PAR132\.\\
+CONFIG_PAR133\.\\
+CONFIG_PAR134\.\\
+CONFIG_PAR135\.\\
+CONFIG_PAR136\.\\
+CONFIG_PAR137\.\\
+CONFIG_PAR138\.\\
+CONFIG_PAR139\.\\
+CONFIG_PAR140\.\\
+CONFIG_PAR141\.\\
+CONFIG_PAR142\.\\
+CONFIG_PAR143\.\\
+CONFIG_PAR144\.\\
+CONFIG_PAR145\.\\
+CONFIG_PAR146\.\\
+CONFIG_PAR147\.\\
+CONFIG_PAR148\.\\
+CONFIG_PAR149\.\\
+CONFIG_PAR150\.\\
+CONFIG_PAR151\.\\
+CONFIG_PAR152\.\\
+CONFIG_PAR153\.\\
+CONFIG_PAR154\.\\
+CONFIG_PAR155\.\\
+CONFIG_PAR156\.\\
+CONFIG_PAR157\.\\
+CONFIG_PAR158\.\\
+CONFIG_PAR159\.\\
+CONFIG_PAR160\.\\
+CONFIG_PAR161\.\\
+CONFIG_PAR162\.\\
+CONFIG_PAR163\.\\
+CONFIG_PAR164\.\\
+CONFIG_PAR165\.\\
+CONFIG_PAR166\.\\
+CONFIG_PAR167\.\\
+CONFIG_PAR168\.\\
+CONFIG_PAR169\.\\
+CONFIG_PAR170\.\\
+CONFIG_PAR171\.\\
+CONFIG_PAR172\.\\
+CONFIG_PAR173\.\\
+CONFIG_PAR174\.\\
+CONFIG_PAR175\.\\
+CONFIG_PAR176\OPTION: Automatic reel change [0=NO; 1=YES]\OPTION: Automatic reel change [0=NO; 1=YES]\
+CONFIG_PAR177\OPTION: Unwinder [0=NO; 1=YES]\OPTION: Unwinder [0=NO; 1=YES]\
+CONFIG_PAR178\OPTION: Rejects [0=NO; 1=YES]\OPTION: Rejects [0=NO; 1=YES]\
+CONFIG_PAR179\OPTION: No Product No Bag / Prime [0=NO; 1=YES]\OPTION: No Product No Bag / Prime [0=NO; 1=YES]\
+CONFIG_PAR180\OPTION: No Gap No Seal [0=NO; 1=YES]\OPTION: No Gap No Seal [0=NO; 1=YES]\
+CONFIG_PAR181\OPTION: Film vacuum pump [0=NO; 1=YES]\OPTION: Film vacuum pump [0=NO; 1=YES]\
+CONFIG_PAR182\OPTION: Jaws dwell angles [0=Disable; 1=Enable]\OPTION: Jaws dwell angles [0=Disable;  1=Enable]\
+CONFIG_PAR183\OPTION: Jaws hold for overlapped products [0=NO; 1=YES]\OPTION: Jaws hold for overlapped products [0=NO; 1=YES]\
+CONFIG_PAR184\OPTION: Air gusseting [0=NO; 1=YES]\OPTION: Air gusseting [0=NO; 1=YES]\
+CONFIG_PAR185\OPTION: Product check on feed chain for prime function [0=NO; 1=YES]\OPTION: Product check on feed chain for prime function [0=NO; 1=YES]\
+CONFIG_PAR186\OPTION: Recipe manual save [0=NO; 1=YES]\OPTION: Recipe manual save [0=NO; 1=YES]\
+CONFIG_PAR187\OPTION: Service kit [0=NO; 1=YES]\OPTION: Service kit [0=NO; 1=YES]\
+CONFIG_PAR188\OPTION: Misplaced product [0=NO; 1=YES]\\
+CONFIG_PAR189\.\\
+CONFIG_PAR190\.\\
+CONFIG_PAR191\.\\
+CONFIG_PAR192\MACHINE: Audible warning for new alarm [0=OFF; 1=ON]\\
+CONFIG_PAR193\.\\
+CONFIG_PAR194\AUTOMATIC REEL SPLICING: Cycle nr. with roller closed\AUTOMATIC REEL SPLICING: Cycle nr. with roller closed\
+CONFIG_PAR195\OEE: Acquisition cycle time [min, 0=every relevant event]\OEE: Acquisition cycle time [min, 0=every relevant event]\
+CONFIG_PAR196\MACHINE: Abort emergency deceleration rate [PPM/sec]\MACHINE: Abort emergency deceleration rate [PPM/sec]\
+CONFIG_PAR197\MACHINE: Identification number in Packaging line [0=sn; 1=sn...]\\
+CONFIG_PAR198\.\SAFETY RELE: Rearming delay [sec]\
+CONFIG_PAR199\MACHINE: Version [0=Right; 1=Left]\\

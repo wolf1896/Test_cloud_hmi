@@ -1,0 +1,1808 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeSchema
+  Id: g=57b93bf2c541ddb10a709664c7de2668
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: PARAMETER_1
+      Type: BaseDataVariableType
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [320]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+    - Name: CAM_POINT
+      Type: BaseDataVariableType
+      DataType: UDT_CamPoint
+      ValueRank: OneDimension
+      ArrayDimensions: [16]
+      Children:
+      - Name: 0
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 1
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 2
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 3
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 4
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 5
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 6
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 7
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 8
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 9
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 10
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 11
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 12
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 13
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 14
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 15
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+    - Name: TEMPERATURE_ZONE
+      Type: BaseDataVariableType
+      DataType: UDT_TemperaturePar_HMI
+      ValueRank: OneDimension
+      ArrayDimensions: [12]
+      Children:
+      - Name: 0
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 1
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 2
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 3
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 4
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 5
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 6
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 7
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 8
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 9
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 10
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 11
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+    - Name: NAME
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: MARKER
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: PART_DESCRIPTION
+      Type: BaseDataVariableType
+      DataType: String
+      ValueRank: OneDimension
+      ArrayDimensions: [32]
+      Value: ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]
+    - Name: PART_COLOR
+      Type: BaseDataVariableType
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [32]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+  - Class: Reference
+    Target: ns=23;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=23;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/HMI_6490_V13_0_00_OptxCom0/CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Program&:RECIPE/RECIPES/0"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/HMI_6490_V13_0_00_OptxCom0/DataStores/EmbeddedDatabase"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: EditModel
+    Id: g=0eec5aa34f6ae995296321a46edacc63
+    Type: BaseObjectType
+    Children:
+    - Name: PARAMETER_1
+      Type: BaseDataVariableType
+      DataType: Float
+      ValueRank: OneDimension
+      ArrayDimensions: [320]
+      Value: [0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0]
+    - Name: CAM_POINT
+      Type: BaseDataVariableType
+      DataType: UDT_CamPoint
+      ValueRank: OneDimension
+      ArrayDimensions: [16]
+      Children:
+      - Name: 0
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 1
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 2
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 3
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 4
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 5
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 6
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 7
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 8
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 9
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 10
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 11
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 12
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 13
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 14
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 15
+        Type: BaseDataVariableType
+        DataType: UDT_CamPoint
+        Children:
+        - Name: Master
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Slave
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Smooth
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+    - Name: TEMPERATURE_ZONE
+      Type: BaseDataVariableType
+      DataType: UDT_TemperaturePar_HMI
+      ValueRank: OneDimension
+      ArrayDimensions: [12]
+      Children:
+      - Name: 0
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 1
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 2
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 3
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 4
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 5
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 6
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 7
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 8
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 9
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 10
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+      - Name: 11
+        Type: BaseDataVariableType
+        DataType: UDT_TemperaturePar_HMI
+        Children:
+        - Name: SetPoint
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: AlrmThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: StopThreshold
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Hysteresys
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: LowCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxCurrent
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: Offset
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: ProportionalBand
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: IntegralTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: DerivativeTime
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+        - Name: MaxLimit
+          Type: BaseDataVariableType
+          DataType: Float
+          Value: 0.0
+    - Name: NAME
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: MARKER
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: PART_DESCRIPTION
+      Type: BaseDataVariableType
+      DataType: String
+      ValueRank: OneDimension
+      ArrayDimensions: [32]
+      Value: ["","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""]
+    - Name: PART_COLOR
+      Type: BaseDataVariableType
+      DataType: Int16
+      ValueRank: OneDimension
+      ArrayDimensions: [32]
+      Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]

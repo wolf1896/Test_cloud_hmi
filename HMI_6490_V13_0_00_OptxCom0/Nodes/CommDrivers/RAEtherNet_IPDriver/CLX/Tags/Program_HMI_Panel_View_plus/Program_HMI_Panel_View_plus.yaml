@@ -1,0 +1,12 @@
+Name: 'Program:HMI_Panel_View_plus'
+Type: FolderType
+Children:
+- Name: PlcName
+  Type: RAEtherNetIPTag
+  DataType: String
+  Value: ""
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:HMI_Panel_View_plus.PlcName"

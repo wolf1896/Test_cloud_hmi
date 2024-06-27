@@ -1,0 +1,8 @@
+Name: Security
+Id: g=8e6dc6a7eca85779b18ceea7620fea93
+Type: SecurityCategoryFolder
+Children:
+- File: CustomerUsers/CustomerUsers.yaml
+- File: Groups/Groups.yaml
+- File: UsersAdm/UsersAdm.yaml
+- File: Roles/Roles.yaml

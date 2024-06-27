@@ -1,0 +1,7 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: LocalTags/LocalTags.yaml
+- File: CommunicationTags/CommunicationTags.yaml
+- File: LoggerTags/LoggerTags.yaml
+- File: AuditTags/AuditTags.yaml

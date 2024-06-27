@@ -1,0 +1,76 @@
+Name: UsersAdm
+Id: g=e0375df221dd0cafe9c1da011e369c5e
+Type: UsersCategoryFolder
+Children:
+- Name: Cavanna
+  Id: g=0299ab9ac7de362f885d1bf82e7f63e2
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=211294ee220a1ab7275b8c191078d6f4
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=76510b8480a5fe9985c836f0345fe43a
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [144,121,190,1,65,104,145,64,144,155,226,51,173,111,252,125,216,198,213,112,212,120,213,188,80,218,158,133,114,138,136,48],
+         "Salt": [123,176,167,135,55,46,243,62,176,172,151,111,137,169,89,45,117,16,167,13,177,168,220,9,245,166,132,120,104,194,211,4]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=592435f03a3a4f251aaa6da0f527f8e1
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2023-12-18T14:24:47.2838071"
+    - Name: History
+      Id: g=27d1b95986fdd3b760c8e03056a3c906
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[144,121,190,1,65,104,145,64,144,155,226,51,173,111,252,125,216,198,213,112,212,120,213,188,80,218,158,133,114,138,136,48],"Salt":[123,176,167,135,55,46,243,62,176,172,151,111,137,169,89,45,117,16,167,13,177,168,220,9,245,166,132,120,104,194,211,4]}}]
+  - Name: LocaleId
+    Id: g=3e2183f4bb029861161c515ee823b683
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=bc13dbc3053f2bb3428afc9bf57847b3
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=464de1762fe27685d805116a5b901f44
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasRole
+    Target: g=5858a2561e1b945c27b8f8c4a7561554
+  - Class: Reference
+    Type: HasRole
+    Target: g=a3d8d6fb19bd92c2d2972144043d1657
+  - Class: Reference
+    Type: HasRole
+    Target: g=a5141692f143835a8d2a1e43846bb9d3
+  - Class: Reference
+    Type: HasRole
+    Target: g=78b16b5363263b9f036ea36d69e8d278

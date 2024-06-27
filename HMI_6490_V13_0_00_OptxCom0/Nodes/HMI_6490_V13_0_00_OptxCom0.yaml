@@ -1,0 +1,83 @@
+Name: HMI_6490_V13_0_00_OptxCom0
+Id: g=2871f4c8a2c81d5c0ce2db21db4ee543
+Type: ProjectFolder
+Children:
+- Name: PasswordPolicy
+  Type: PasswordPolicy
+  Children:
+  - Name: MaximumPasswordAge
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: EnforcePasswordHistory
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+  - Name: MinimumPasswordAge
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 0
+  - Name: MinimumPasswordLength
+    Type: BaseDataVariableType
+    DataType: Byte
+    Value: 1
+- File: UI/UI.yaml
+- File: Model/Model.yaml
+- File: Translations/Translations.yaml
+- File: Alarms/Alarms.yaml
+- File: Converters/Converters.yaml
+- File: CommDrivers/CommDrivers.yaml
+- Name: Authentication
+  Type: PropertyGroup
+  Children:
+  - Name: AuthenticationMode
+    Type: BaseDataVariableType
+    DataType: AuthenticationMode
+    Value: 0
+- Name: AlarmConfiguration
+  Type: PropertyGroup
+  Children:
+  - Name: BranchingEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: Localization
+  Type: PropertyGroup
+  Children:
+  - Name: Locales
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US","it-IT","th-TH"]
+  - Name: LocaleFallbackList
+    Type: BaseDataVariableType
+    DataType: LocaleId
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Name: MeasurementSystemMap
+    Type: BaseDataVariableType
+    DataType: MeasurementSystemMapItem
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":235,"Namespace":1},"Body":{"From":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4408652,"NamespaceIndex":0}},"InternationalSystemOfUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4408652,"NamespaceIndex":0}},"USCustomarySystem":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4604232,"NamespaceIndex":0}},"BritishImperialUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4604232,"NamespaceIndex":0}}}}]
+- File: AlarmTypes/AlarmTypes.yaml
+- File: Security/Security.yaml
+- File: Recipes/Recipes.yaml
+- File: DataStores/DataStores.yaml
+- File: Loggers/Loggers.yaml
+- File: Reports/Reports.yaml
+- File: NetLogic/NetLogic.yaml
+- File: 'OPC-UA/OPC-UA.yaml'
+- File: Retentivity/Retentivity.yaml
+- File: System/System.yaml
+- Name: RecipeSchema
+  Type: Alias
+  DataType: NodeId
+  Value: "/Objects/HMI_6490_V13_0_00_OptxCom0/Recipes/RecipeSchema/EditModel"
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: "/Objects/HMI_6490_V13_0_00_OptxCom0/Recipes/RecipeSchema/EditModel"

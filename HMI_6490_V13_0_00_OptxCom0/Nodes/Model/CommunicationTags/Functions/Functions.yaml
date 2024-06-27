@@ -1,0 +1,48 @@
+Name: Functions
+Type: FolderType
+Children:
+- Name: Functions_Visibility
+  Type: BaseDataVariableType
+  DataType: Int32
+  Description: {"LocaleId":"en-US","Text":"Used to enable switch into lower banner"}
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI_CONFIG/PANEL[7]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Functions_Bit
+  Type: BaseDataVariableType
+  DataType: Int32
+  Description: {"LocaleId":"en-US","Text":"Used to interact with switch into lower banner"}
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/HAND_SHAKE[10]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: Functions_Enable
+  Type: BaseDataVariableType
+  DataType: Int32
+  Description: {"LocaleId":"en-US","Text":"Used to enable switch into lower banner"}
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/HAND_SHAKE[11]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

@@ -1,0 +1,16 @@
+Name: Roles
+Id: g=1b7990e597ebe4c447fde3b74518ad8e
+Type: RolesCategoryFolder
+Children:
+- Name: Maintener Role
+  Id: g=5858a2561e1b945c27b8f8c4a7561554
+  Type: ns=1;RoleType
+- Name: Operator Role
+  Id: g=a3d8d6fb19bd92c2d2972144043d1657
+  Type: ns=1;RoleType
+- Name: Supervisor Role
+  Id: g=a5141692f143835a8d2a1e43846bb9d3
+  Type: ns=1;RoleType
+- Name: Cavanna Role
+  Id: g=78b16b5363263b9f036ea36d69e8d278
+  Type: ns=1;RoleType

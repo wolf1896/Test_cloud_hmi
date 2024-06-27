@@ -1,0 +1,8 @@
+Name: Tags
+Type: FolderType
+Children:
+- File: Controller_Tags/Controller_Tags.yaml
+- File: Program_HMI_Panel_View_plus/Program_HMI_Panel_View_plus.yaml
+- File: Program_MACHINE_MANAGER/Program_MACHINE_MANAGER.yaml
+- File: Program_OEE_Summary/Program_OEE_Summary.yaml
+- File: Program_RECIPE/Program_RECIPE.yaml

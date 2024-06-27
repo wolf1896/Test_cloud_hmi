@@ -1,0 +1,182 @@
+Name: StatusBar
+Type: FolderType
+Children:
+- Name: StsBar_Warning
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Description: {"LocaleId":"en-US","Text":"WARNING alarm present for status bar"}
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Program&:MACHINE_MANAGER/Warning"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: StsBar_AutoHeld
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Description: {"LocaleId":"en-US","Text":"AUTO HELD alarm present for status bar"}
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Program&:MACHINE_MANAGER/AutoHeld"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: StsBar_JogHeld
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Description: {"LocaleId":"en-US","Text":"JOG HELD alarm present for status bar"}
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Program&:MACHINE_MANAGER/JogHeld"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: StsBar_Abort
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Description: {"LocaleId":"en-US","Text":"ABORT alarm present for status bar"}
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Program&:MACHINE_MANAGER/Abort"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: StsBar_Estop
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Description: {"LocaleId":"en-US","Text":"ESTOP alarm present for status bar"}
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Program&:MACHINE_MANAGER/Estop"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: StsBar_Guards
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Description: {"LocaleId":"en-US","Text":"GUARD alarm present for status bar"}
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Program&:MACHINE_MANAGER/Guards"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: StsBar_Starting
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Description: {"LocaleId":"en-US","Text":"Acoustic warning in progress for status bar"}
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/GL_MachineCmd/StartingAcousticWarning"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: StsBar_AcousticHorn
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Description: {"LocaleId":"en-US","Text":"Acoustic warning beeper for status bar"}
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/HAND_SHAKE[4].17"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: StsBar_Running
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Description: {"LocaleId":"en-US","Text":"Running condition for status bar"}
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/GL_MachineCondition/Running"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: StsBar_Suspended
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Description: {"LocaleId":"en-US","Text":"Suspended mode for status bar"}
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/GL_MachineStatus/CurrentState/Suspended"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: StsBar_AutoProducing
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Description: {"LocaleId":"en-US","Text":"Automatic mode for status bar"}
+  Value: false
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/GL_MachineStatus/CurrentMode/AutoProducing"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: StsBar_Duration
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX/Tags/Controller Tags/HMI/GLOBAL_PARAMETER[0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2

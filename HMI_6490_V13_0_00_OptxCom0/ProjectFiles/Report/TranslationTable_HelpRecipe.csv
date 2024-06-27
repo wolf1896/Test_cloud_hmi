@@ -1,0 +1,321 @@
+﻿Key,en-US,it-IT
+HELP001,Torque limit in percent of the motor,Limite di coppia in percentuale del motore
+HELP002,It corresponds to the scope value shortly after the moment in which the NPNB photocell starts reading the product,Corrisponde al valore di scope poco dopo il momento in cui la fotocellula di NPNB inizia a leggere il prodotto
+HELP003,It corresponds to the scope value just before the moment in which the NPNB photocell finishes reading the product,Corrisponde al valore di scope poco prima il momento in cui la fotocellula di NPNB finisce di leggere il prodotto
+HELP004,no description,no description
+HELP005,no description,no description
+HELP006,no description,no description
+HELP007,no description,no description
+HELP008,Determines the start of the jaw stop angle,Determina l�inizio dell'angolo di arresto della ganascia 
+HELP009,Determines the end of the jaw stop angle,Determina la fine dell�angolo di arresto della ganascia
+HELP010,Indicates the cut point with respect to the position of the product,Indica il punto di taglio rispetto alla posizione del prodotto
+HELP011,Corresponds to the pitch radius of the jaw assembly (shaft-to-blade center distance,Corrisponde al raggio primitivo del gruppo ganascia (distanza centro albero-lama
+HELP012,Number of blades mounted on the single shaft,Numero di lame montante sul singolo albero
+HELP013,Variation of the sealing speed with respect to that of the film in the angle defined by parameters 014 and 015,Variazione della velocit� di saldatura rispetto quella del film nell'angolo definito dai parametri 014 e 015
+HELP014,Determines the beginning of the angle in which the peripheral speed of the jaw is equal to that of the film (it can be changed with parameter 013),Determina l�inizio dell�angolo in cui la velocit� periferica della ganascia � uguale a quella del film (pu� essere variata con il parametro 013)
+HELP015,Determines the end of the corner in which the peripheral speed of the jaw is equal to that of the film (it can be changed with parameter 013),Determina la fine dell�angolo in cui la velocit� periferica della ganascia � uguale a quella del film (pu� essere variata con il parametro 013)
+HELP016,Torque limit in percent of the motor,Limite di coppia in percentuale del motore
+HELP017,no description,no description
+HELP018,no description,no description
+HELP019,no description,no description
+HELP020,no description,no description
+HELP021,no description,no description
+HELP022,no description,no description
+HELP023,no description,no description
+HELP024,Defines the cutting step (envelope length) if film with notch is used it must correspond to the notch-notch distance,Definisce il passo di taglio (lunghezza busta) se si utilizza film con tacca deve corrispondere alla distanza tacca-tacca
+HELP025,Enabling of the film position correction system,Abilitazione del sistema di correzione della posizione del film, si utilizza solo con film con tacca
+HELP026,Maximum film position correction in millimeters per cycle,"Massima correzione in millimetri al ciclo della posizione del film
+HELP027,Determines the position of the film (print) relative to the product,Determina la posizione del film (stampa) rispetto al prodotto
+HELP028,It defines the maximum tolerated position error of the film,Definisce il massimo errore di posizione del film tollerato, oltre il quale la busta in esame viene scartata. 
+HELP029,no description,no description
+HELP030,no description,no description
+HELP031,Determines the percentage of vacuum in the hopper suction system with respect to the maximum engine speed,Determina la quantit� di vuoto percentuale nel sistema di aspirazione in tramoggia rispetto alla massima velocità del motore
+HELP032,Enabling the reel splice detection system,Abilitazione del sistema di rilevamento della giunzione bobina
+HELP033,Bags rejection delay with reel splice, correspond to distance between B6w and B1d in cycles,Ritardo di scarto della busta in cui � presente la giunzione bobina, corrisponde alla distanza tra la fotocellula di rilevamento giunzione bobina B6w e la fotocellula di scarto in uscita B1d
+HELP034,Tension in thousandths of the film in the section between the unwinding roller and the first pair of rotors,Tensione in millesimi del film nel tratto tra rullo svolgitore e prima coppia di rotanti
+HELP035,Synchronism in CAB roller closing degrees (automatic reel change),Sincronismo in gradi di chiusura rulli CAB (cambio automatico bobina), utilizzato con film stampato per mantenere allineate le tacche della bobina esaurita e quella nuova
+HELP036,Delay in cycles for the closing of the CAB rollers following the end of the reel,Ritardo in cicli per la chiusura dei rulli CAB in seguito all�esaurimento della bobina, corrisponde alla distanza in cicli tra il sensore di fine bobina e i rulli
+HELP037,Number of cycles for which the CAB speed is maintained,Numero di cicli per cui viene mantenuta la velocit� di CAB
+HELP038,Distance in cycles between the CAB rollers and the notch reading photocell,Distanza in cicli tra i rulli di CAB e la fotocellula di lettura tacca 
+HELP039,Indicates the actual development of the rotors,Indica il reale sviluppo dei rotanti, determinato azionando i rotanti per un numero intero di rotazioni e misurando il film svolto/numero di rotazioni
+HELP040,Nominal speed in Products Per Minute of the line,Velocit� nominale in Prodotti Per Minuto della linea
+HELP041,Line recovery speed,Velocit� di recupero della linea, utilizzata in condizioni di carico massimo
+HELP042,Percentage increase of the line speed with respect to the nominal speed (parameter 040),Incremento percentuale della velocit� di linea rispetto alla velocit� nominale (parametro 040)
+HELP043,Percentage decrease of the line speed with respect to the nominal speed (parameter 040),Decremento percentuale della velocit� di linea rispetto alla velocit� nominale (parametro 040)
+HELP044,Speed acquired during the CAB operation,Velocit� acquisita durante l�operazione di CAB, inizia con la chiusura dei rulli e persiste per un numero di cicli definito (parametro 037)
+HELP045,Speed acquired during JOG running,Velocit� acquisita durante la marcia in JOG
+HELP046,Speed used during stopping phases,Velocit� utilizzata durante le fasi di arresto
+HELP047,Line acceleration ramp,Rampa di accelerazione della linea
+HELP048,Enabling the coding system,Abilitazione del sistema di codifica
+HELP049,Position relative to the film of the encoding,Posizione rispetto al film della codifica
+HELP050,Envelope reject delay without coding,Ritardo di scarto delle buste senza codifica, corrisponde alla distanza tra testina di stampa e fotocellula di scarto in uscita B1d
+HELP051,no description,no description
+HELP052,Signal start phase (0 to 1) in degrees of the auxiliary cam,Inizio segnale (da 0 a 1) in gradi della camma ausiliaria 
+HELP053,Signal stop phase (1 to 0) in degrees of the auxiliary cam,Inizio segnale (da 1 a 0) in gradi della camma ausiliaria 
+HELP054,On actuator delay compensation in milliseconds,Compensazione ritardo attuatore in millisecondi, anticipo di accensione
+HELP055,Off actuator delay compensation in milliseconds,Compensazione ritardo attuatore in millisecondi, anticipo spegnimento
+HELP056,Signal start phase (0 to 1) in degrees of the pneaumatic gusset device,Posizione in gradi per inizio soffietto pneumatico
+HELP057,Signal stop phase (1 to 0) in degrees of the pneaumatic gusset device,Posizione in gradi per fine soffietto pneumatico
+HELP058,no description,no description
+HELP059,no description,no description
+HELP060,no description,no description
+HELP061,no description,no description
+HELP062,no description,no description
+HELP063,no description,no description
+HELP064,Development in millimeters per cycle of the exit belt,Sviluppo in millimetri al ciclo del nastro di uscita della confezionatrice
+HELP065,no description,no description
+HELP066,no description,no description
+HELP067,no description,no description
+HELP068,no description,no description
+HELP069,no description,no description
+HELP070,no description,no description
+HELP071,no description,no description
+HELP072,Enabling rejects on exit belt,Abilitazione scarti in uscita
+HELP073,Synchronism phase to reject products on exit belt, correspond to position while B1d is between two bags,Sincronismo si scarto, corrisponde al valore di scope nel punto in cui la fotocellula B1d si trova al centro dello spazio tra i prodotti in transito
+HELP074,Defines the minimum distance between two products on the exit belt,Definisce la minima distanza tra due prodotti in transito sul nastro di uscita, sotto questa soglia i prodotti troppo vicini vengono scartati (corone)
+HELP075,no description,no description
+HELP076,Distance in cycles from Jaws to photocell B1d,Distanza in cicli dal gruppo crimper alla fotocellula di scarto in uscita B1d
+HELP077,Distance in cycles from the CAB rollers to photocell B1d,Distanza in cicli dai rulli di CAB alla fotocellula di scarto in uscita B1d
+HELP078,Distance in cycles from CAB rollers to jaws,Distanza in cicli dai rulli di CAB al gruppo crimper
+HELP079,Number of products to reject with film overlay following CAB,Numero di prodotti da scartare con film sovrapposto in seguito a CAB
+HELP080,Number of 'burnt' products to be rejected, burnt products are those products which remain on the hot sealing area for more than a defined time (parameter 081),Numero di prodotti �bruciati� da scartare, i bruciati sono quei prodotti che sostano sull�area di saldatura calda per pi� di un tempo definito (parametro 081)
+HELP081,Time in seconds beyond which the products still on the hot zone are defined as burnt,Tempo in secondi oltre al quale i prodotti fermi sulla zona calda vengono definiti bruciati 
+HELP082,Distance in cycles from the end of the hot zone to the output reject photocell B1d,Distanza in cicli dalla fine della zona calda alla fotocellula di scarto in uscita B1d
+HELP083,no description,
+HELP084,no description,
+HELP085,no description,
+HELP086,no description,
+HELP087,no description,
+HELP088,Definition of the type of function to be used between NPNB or PRIME,Definizione tipo di funzione che si vuole utilizzare tra NPNB o PRIME
+HELP089,no description,
+HELP090,Distance in millimeters between the NPNB sensor and the point where the product is released from the chain and held by the film,Distanza in millimetri tra il sensore di NPNB e il punto in cui il prodotto viene abbandonato dalla catena e trattenuto dal film
+HELP091,no description,
+HELP092,It corresponds to the scope value at the point where the NPNB photocell starts reading the product,Corrisponde al valore di scope nel punto in cui la fotocellula di NPNB inizia a leggere il prodotto 
+HELP093,It corresponds to the scope value at the point where the NPNB photocell stops reading the product,Corrisponde al valore di scope nel punto in cui la fotocellula di NPNB finisce di leggere il prodotto
+HELP094,Delay in cycles from the NPNB sensor to the moment the film starts to play,Ritardo in cicli dal sensore di NPNB al momento in cui il film inizia a svolgere
+HELP095,Number of cycles used by the film to reach full speed,Numero di cicli utilizzati dal film per raggiungere la velocit� di regime
+HELP096,Indicates the ideal average line speed in Products Per Minute,Indica la velocit� media ideale di linea in Prodotti Per Minuto
+HELP097,It is the multiplier for entering products each machine cycle, used to count the processed products,� il moltiplicatore di prodotti in ingresso per ogni ciclo macchina, utilizzato per determinare il numero di singoli prodotti processati
+HELP098,It is the multiplier for exiting products each machine cycle,used to count the good products,� il moltiplicatore di prodotti in uscita per ogni ciclo macchina, utilizzato per determinare il numero di singoli prodotti buoni
+HELP099,no description,no description
+HELP100,Heaters enable,Abilitazione dei riscaldamenti della macchina
+HELP101,no description,no description
+HELP102,no description,no description
+HELP103,no description,no description
+HELP104,no description,no description
+HELP105,no description,no description
+HELP106,no description,no description
+HELP107,no description,no description
+HELP108,no description,no description
+HELP109,no description,no description
+HELP110,no description,no description
+HELP111,no description,no description
+HELP112,no description,no description
+HELP113,no description,no description
+HELP114,no description,no description
+HELP115,no description,no description
+HELP116,no description,no description
+HELP117,no description,no description
+HELP118,no description,no description
+HELP119,no description,no description
+HELP120,no description,no description
+HELP121,no description,no description
+HELP122,no description,no description
+HELP123,no description,no description
+HELP124,no description,no description
+HELP125,no description,no description
+HELP126,no description,no description
+HELP127,no description,no description
+HELP128,no description,no description
+HELP129,no description,no description
+HELP130,no description,no description
+HELP131,no description,no description
+HELP132,no description,no description
+HELP133,no description,no description
+HELP134,no description,no description
+HELP135,no description,no description
+HELP136,no description,no description
+HELP137,no description,no description
+HELP138,no description,no description
+HELP139,no description,no description
+HELP140,no description,no description
+HELP141,no description,no description
+HELP142,no description,no description
+HELP143,no description,no description
+HELP144,no description,no description
+HELP145,no description,no description
+HELP146,no description,no description
+HELP147,no description,no description
+HELP148,no description,no description
+HELP149,no description,no description
+HELP150,no description,no description
+HELP151,no description,no description
+HELP152,no description,no description
+HELP153,no description,no description
+HELP154,no description,no description
+HELP155,no description,no description
+HELP156,no description,no description
+HELP157,no description,no description
+HELP158,no description,no description
+HELP159,no description,no description
+HELP160,no description,no description
+HELP161,no description,no description
+HELP162,no description,no description
+HELP163,no description,no description
+HELP164,no description,no description
+HELP165,no description,no description
+HELP166,no description,no description
+HELP167,no description,no description
+HELP168,no description,no description
+HELP169,no description,no description
+HELP170,no description,no description
+HELP171,no description,no description
+HELP172,no description,no description
+HELP173,no description,no description
+HELP174,no description,no description
+HELP175,no description,no description
+HELP176,no description,no description
+HELP177,no description,no description
+HELP178,no description,no description
+HELP179,no description,no description
+HELP180,no description,no description
+HELP181,no description,no description
+HELP182,no description,no description
+HELP183,no description,no description
+HELP184,no description,no description
+HELP185,no description,no description
+HELP186,no description,no description
+HELP187,no description,no description
+HELP188,no description,no description
+HELP189,no description,no description
+HELP190,no description,no description
+HELP191,no description,no description
+HELP192,no description,no description
+HELP193,no description,no description
+HELP194,no description,no description
+HELP195,no description,no description
+HELP196,no description,no description
+HELP197,no description,no description
+HELP198,no description,no description
+HELP199,no description,no description
+HELP200,no description,no description
+HELP201,no description,no description
+HELP202,no description,no description
+HELP203,no description,no description
+HELP204,no description,no description
+HELP205,no description,no description
+HELP206,no description,no description
+HELP207,no description,no description
+HELP208,no description,no description
+HELP209,no description,no description
+HELP210,no description,no description
+HELP211,no description,no description
+HELP212,no description,no description
+HELP213,no description,no description
+HELP214,no description,no description
+HELP215,no description,no description
+HELP216,no description,no description
+HELP217,no description,no description
+HELP218,no description,no description
+HELP219,no description,no description
+HELP220,no description,no description
+HELP221,no description,no description
+HELP222,no description,no description
+HELP223,no description,no description
+HELP224,no description,no description
+HELP225,no description,no description
+HELP226,no description,no description
+HELP227,no description,no description
+HELP228,no description,no description
+HELP229,no description,no description
+HELP230,no description,no description
+HELP231,no description,no description
+HELP232,no description,no description
+HELP233,no description,no description
+HELP234,no description,no description
+HELP235,no description,no description
+HELP236,no description,no description
+HELP237,no description,no description
+HELP238,no description,no description
+HELP239,no description,no description
+HELP240,no description,no description
+HELP241,no description,no description
+HELP242,no description,no description
+HELP243,no description,no description
+HELP244,no description,no description
+HELP245,no description,no description
+HELP246,no description,no description
+HELP247,no description,no description
+HELP248,no description,no description
+HELP249,no description,no description
+HELP250,no description,no description
+HELP251,no description,no description
+HELP252,no description,no description
+HELP253,no description,no description
+HELP254,no description,no description
+HELP255,no description,no description
+HELP256,no description,no description
+HELP257,no description,no description
+HELP258,no description,no description
+HELP259,no description,no description
+HELP260,no description,no description
+HELP261,no description,no description
+HELP262,no description,no description
+HELP263,no description,no description
+HELP264,no description,no description
+HELP265,no description,no description
+HELP266,no description,no description
+HELP267,no description,no description
+HELP268,no description,no description
+HELP269,no description,no description
+HELP270,no description,no description
+HELP271,no description,no description
+HELP272,no description,no description
+HELP273,no description,no description
+HELP274,no description,no description
+HELP275,no description,no description
+HELP276,no description,no description
+HELP277,no description,no description
+HELP278,no description,no description
+HELP279,no description,no description
+HELP280,no description,no description
+HELP281,no description,no description
+HELP282,no description,no description
+HELP283,no description,no description
+HELP284,no description,no description
+HELP285,no description,no description
+HELP286,no description,no description
+HELP287,no description,no description
+HELP288,no description,no description
+HELP289,no description,no description
+HELP290,no description,no description
+HELP291,no description,no description
+HELP292,no description,no description
+HELP293,no description,no description
+HELP294,no description,no description
+HELP295,no description,no description
+HELP296,no description,no description
+HELP297,no description,no description
+HELP298,no description,no description
+HELP299,no description,no description
+HELP300,no description,no description
+HELP301,no description,no description
+HELP302,no description,no description
+HELP303,no description,no description
+HELP304,no description,no description
+HELP305,no description,no description
+HELP306,no description,no description
+HELP307,no description,no description
+HELP308,no description,no description
+HELP309,no description,no description
+HELP310,no description,no description
+HELP311,no description,no description
+HELP312,no description,no description
+HELP313,no description,no description
+HELP314,no description,no description
+HELP315,no description,no description
+HELP316,no description,no description
+HELP317,no description,no description
+HELP318,no description,no description
+HELP000,Pitch in millimeters between the two thrust lugs of the feed chain,Passo in millimetri tra i due naselli di spinta della catena di alimentazione
+HELP1000,No parameter selected,Nesun parametro selezionato
