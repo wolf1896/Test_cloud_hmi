@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HMI_6490_V13_0_00_OptxCom0")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf60ffda36302b4f553e88a8f030360237a25f39")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d97956c719cb3e4f4246105d6710b676b66deb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("HMI_6490_V13_0_00_OptxCom0")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HMI_6490_V13_0_00_OptxCom0")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
