@@ -12,7 +12,6 @@ Children:
     DataType: Password
     ReferenceType: HasProperty
     AccessLevel: Read
-    Value: ""
     Children:
     - Name: Hash
       Id: g=76510b8480a5fe9985c836f0345fe43a

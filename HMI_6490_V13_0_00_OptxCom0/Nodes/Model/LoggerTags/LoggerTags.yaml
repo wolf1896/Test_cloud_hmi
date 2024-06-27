@@ -4,7 +4,6 @@ Children:
 - Name: TemperatureZone0
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -18,7 +17,6 @@ Children:
 - Name: TemperatureZone1
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -32,7 +30,6 @@ Children:
 - Name: TemperatureZone2
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -46,7 +43,6 @@ Children:
 - Name: TemperatureZone3
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -60,7 +56,6 @@ Children:
 - Name: TemperatureZone4
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -74,7 +69,6 @@ Children:
 - Name: TemperatureZone5
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -88,7 +82,6 @@ Children:
 - Name: TemperatureZone6
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -102,7 +95,6 @@ Children:
 - Name: TemperatureZone7
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink

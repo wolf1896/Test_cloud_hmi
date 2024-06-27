@@ -5,7 +5,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Description: {"LocaleId":"en-US","Text":"WARNING alarm present for status bar"}
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -20,7 +19,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Description: {"LocaleId":"en-US","Text":"AUTO HELD alarm present for status bar"}
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -35,7 +33,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Description: {"LocaleId":"en-US","Text":"JOG HELD alarm present for status bar"}
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -50,7 +47,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Description: {"LocaleId":"en-US","Text":"ABORT alarm present for status bar"}
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -65,7 +61,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Description: {"LocaleId":"en-US","Text":"ESTOP alarm present for status bar"}
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -80,7 +75,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Description: {"LocaleId":"en-US","Text":"GUARD alarm present for status bar"}
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -95,7 +89,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Description: {"LocaleId":"en-US","Text":"Acoustic warning in progress for status bar"}
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -110,7 +103,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Description: {"LocaleId":"en-US","Text":"Acoustic warning beeper for status bar"}
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -125,7 +117,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Description: {"LocaleId":"en-US","Text":"Running condition for status bar"}
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -140,7 +131,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Description: {"LocaleId":"en-US","Text":"Suspended mode for status bar"}
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -155,7 +145,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Description: {"LocaleId":"en-US","Text":"Automatic mode for status bar"}
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -169,7 +158,6 @@ Children:
 - Name: StsBar_Duration
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink

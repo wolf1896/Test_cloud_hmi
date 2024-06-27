@@ -5,7 +5,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Description: {"LocaleId":"en-US","Text":"Used to enable switch into lower banner"}
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -20,7 +19,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Description: {"LocaleId":"en-US","Text":"Used to interact with switch into lower banner"}
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -35,7 +33,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Description: {"LocaleId":"en-US","Text":"Used to enable switch into lower banner"}
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink

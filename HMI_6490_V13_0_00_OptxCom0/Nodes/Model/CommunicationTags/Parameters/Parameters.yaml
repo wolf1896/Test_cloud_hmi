@@ -8,12 +8,10 @@ Children:
   - Name: Actual
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -41,16 +39,13 @@ Children:
   - Name: Old
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: Scope
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -78,12 +73,10 @@ Children:
   - Name: MinUser
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -111,12 +104,10 @@ Children:
   - Name: MaxUser
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -144,16 +135,13 @@ Children:
   - Name: ParNum
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: MinSystem
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -181,12 +169,10 @@ Children:
   - Name: MaxSystem
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -214,12 +200,10 @@ Children:
   - Name: CompareValue
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -251,12 +235,10 @@ Children:
   - Name: SetPoint
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -294,21 +276,17 @@ Children:
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: ActualTemp
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -346,21 +324,17 @@ Children:
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: AlarmThreshold
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -398,21 +372,17 @@ Children:
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: StopThreshold
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -450,21 +420,17 @@ Children:
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: Hysteresys
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -502,21 +468,17 @@ Children:
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: LowCurrent
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -544,12 +506,10 @@ Children:
   - Name: HighCurrent
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -577,12 +537,10 @@ Children:
   - Name: Visible
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -610,16 +568,13 @@ Children:
   - Name: ZoneNumber
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: SelftuneCmd
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -647,12 +602,10 @@ Children:
   - Name: Offset
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -690,21 +643,17 @@ Children:
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: ProportionalBand
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -732,12 +681,10 @@ Children:
   - Name: IntegralTime
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -765,12 +712,10 @@ Children:
   - Name: DerivativeTime
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -798,12 +743,10 @@ Children:
   - Name: MaxTemperatureLimit
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -841,21 +784,17 @@ Children:
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
       - Name: Description
         Type: BaseVariableType
         DataType: LocalizedText
         ReferenceType: HasProperty
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
   - Name: OutputPower
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -892,7 +831,6 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -920,20 +858,16 @@ Children:
   - Name: Old
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: ParNum
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: MinSystem
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -961,12 +895,10 @@ Children:
   - Name: MaxSystem
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -1003,7 +935,6 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -1031,11 +962,9 @@ Children:
   - Name: Old
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: ParNum
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: MinSystem
     Type: BaseDataVariableType
     DataType: Float

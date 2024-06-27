@@ -30,51 +30,39 @@ Children:
         - Name: ActiveState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: AckedState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConfirmedState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: ConditionName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: EnabledState_Id
           Type: StoreColumn
           DataType: Boolean
-          Value: false
         - Name: SourceName
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Time
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_en-US'
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: 'Message_it-IT'
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Severity
           Type: StoreColumn
           DataType: UInt16
-          Value: 0
         - Name: LocalTime
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: 'Message_th-TH'
           Type: StoreColumn
           DataType: String
-          Value: ""
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32
@@ -100,43 +88,33 @@ Children:
         - Name: Timestamp
           Type: StoreColumn
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: TemperatureZone0
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: TemperatureZone1
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: TemperatureZone2
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: TemperatureZone3
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: TemperatureZone4
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: TemperatureZone5
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: TemperatureZone6
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: TemperatureZone7
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: LocalTimestamp
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32
@@ -162,27 +140,21 @@ Children:
         - Name: ClientUserId
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: SourceNode
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: NewValue
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: OldValue
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: IndexRange
           Type: StoreColumn
           DataType: NumericRange
-          Value: ""
         - Name: LocalTime
           Type: StoreColumn
           DataType: DateTime
-          Value: "1601-01-01T00:00:00.0000000"
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32
@@ -208,23 +180,18 @@ Children:
         - Name: Time
           Type: StoreColumn
           DataType: DateString
-          Value: ""
         - Name: Circuit
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Message
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Program
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: Type
           Type: StoreColumn
           DataType: String
-          Value: ""
       - Name: RecordLimit
         Type: BaseDataVariableType
         DataType: UInt32
@@ -250,2271 +217,1704 @@ Children:
         - Name: Name
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PARAMETER_1_0
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_1
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_2
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_3
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_4
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_5
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_6
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_7
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_8
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_9
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_10
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_11
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_12
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_13
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_14
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_15
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_16
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_17
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_18
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_19
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_20
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_21
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_22
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_23
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_24
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_25
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_26
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_27
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_28
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_29
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_30
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_31
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_32
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_33
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_34
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_35
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_36
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_37
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_38
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_39
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_40
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_41
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_42
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_43
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_44
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_45
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_46
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_47
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_48
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_49
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_50
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_51
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_52
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_53
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_54
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_55
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_56
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_57
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_58
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_59
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_60
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_61
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_62
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_63
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_64
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_65
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_66
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_67
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_68
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_69
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_70
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_71
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_72
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_73
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_74
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_75
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_76
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_77
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_78
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_79
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_80
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_81
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_82
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_83
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_84
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_85
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_86
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_87
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_88
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_89
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_90
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_91
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_92
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_93
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_94
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_95
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_96
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_97
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_98
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_99
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_100
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_101
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_102
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_103
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_104
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_105
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_106
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_107
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_108
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_109
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_110
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_111
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_112
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_113
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_114
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_115
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_116
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_117
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_118
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_119
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_120
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_121
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_122
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_123
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_124
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_125
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_126
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_127
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_128
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_129
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_130
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_131
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_132
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_133
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_134
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_135
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_136
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_137
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_138
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_139
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_140
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_141
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_142
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_143
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_144
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_145
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_146
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_147
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_148
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_149
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_150
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_151
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_152
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_153
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_154
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_155
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_156
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_157
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_158
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_159
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_160
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_161
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_162
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_163
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_164
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_165
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_166
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_167
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_168
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_169
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_170
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_171
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_172
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_173
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_174
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_175
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_176
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_177
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_178
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_179
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_180
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_181
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_182
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_183
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_184
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_185
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_186
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_187
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_188
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_189
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_190
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_191
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_192
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_193
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_194
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_195
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_196
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_197
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_198
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_199
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_200
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_201
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_202
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_203
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_204
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_205
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_206
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_207
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_208
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_209
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_210
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_211
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_212
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_213
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_214
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_215
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_216
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_217
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_218
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_219
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_220
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_221
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_222
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_223
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_224
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_225
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_226
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_227
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_228
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_229
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_230
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_231
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_232
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_233
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_234
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_235
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_236
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_237
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_238
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_239
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_240
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_241
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_242
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_243
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_244
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_245
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_246
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_247
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_248
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_249
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_250
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_251
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_252
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_253
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_254
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_255
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_256
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_257
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_258
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_259
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_260
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_261
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_262
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_263
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_264
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_265
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_266
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_267
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_268
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_269
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_270
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_271
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_272
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_273
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_274
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_275
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_276
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_277
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_278
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_279
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_280
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_281
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_282
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_283
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_284
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_285
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_286
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_287
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_288
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_289
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_290
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_291
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_292
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_293
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_294
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_295
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_296
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_297
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_298
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_299
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_300
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_301
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_302
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_303
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_304
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_305
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_306
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_307
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_308
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_309
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_310
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_311
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_312
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_313
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_314
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_315
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_316
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_317
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_318
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /PARAMETER_1_319
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/0/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/0/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/0/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/1/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/1/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/1/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/2/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/2/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/2/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/3/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/3/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/3/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/4/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/4/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/4/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/5/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/5/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/5/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/6/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/6/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/6/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/7/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/7/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/7/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/8/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/8/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/8/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/9/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/9/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/9/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/10/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/10/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/10/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/11/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/11/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/11/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/12/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/12/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/12/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/13/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/13/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/13/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/14/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/14/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/14/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/15/Master
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/15/Slave
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /CAM_POINT/15/Smooth
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/0/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/0/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/0/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/0/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/0/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/0/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/0/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/0/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/0/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/0/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/0/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/1/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/1/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/1/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/1/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/1/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/1/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/1/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/1/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/1/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/1/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/1/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/2/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/2/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/2/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/2/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/2/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/2/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/2/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/2/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/2/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/2/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/2/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/3/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/3/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/3/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/3/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/3/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/3/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/3/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/3/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/3/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/3/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/3/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/4/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/4/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/4/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/4/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/4/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/4/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/4/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/4/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/4/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/4/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/4/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/5/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/5/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/5/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/5/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/5/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/5/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/5/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/5/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/5/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/5/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/5/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/6/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/6/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/6/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/6/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/6/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/6/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/6/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/6/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/6/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/6/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/6/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/7/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/7/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/7/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/7/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/7/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/7/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/7/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/7/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/7/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/7/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/7/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/8/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/8/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/8/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/8/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/8/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/8/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/8/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/8/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/8/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/8/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/8/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/9/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/9/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/9/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/9/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/9/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/9/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/9/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/9/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/9/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/9/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/9/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/10/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/10/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/10/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/10/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/10/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/10/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/10/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/10/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/10/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/10/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/10/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/11/SetPoint
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/11/AlrmThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/11/StopThreshold
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/11/Hysteresys
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/11/LowCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/11/MaxCurrent
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/11/Offset
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/11/ProportionalBand
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/11/IntegralTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/11/DerivativeTime
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /TEMPERATURE_ZONE/11/MaxLimit
           Type: StoreColumn
           DataType: Float
-          Value: 0.0
         - Name: /NAME
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /MARKER
           Type: StoreColumn
           DataType: Int32
-          Value: 0
         - Name: /PART_DESCRIPTION_0
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_1
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_2
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_3
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_4
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_5
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_6
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_7
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_8
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_9
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_10
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_11
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_12
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_13
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_14
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_15
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_16
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_17
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_18
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_19
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_20
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_21
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_22
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_23
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_24
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_25
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_26
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_27
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_28
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_29
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_30
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_DESCRIPTION_31
           Type: StoreColumn
           DataType: String
-          Value: ""
         - Name: /PART_COLOR_0
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_1
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_2
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_3
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_4
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_5
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_6
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_7
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_8
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_9
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_10
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_11
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_12
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_13
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_14
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_15
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_16
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_17
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_18
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_19
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_20
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_21
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_22
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_23
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_24
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_25
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_26
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_27
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_28
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_29
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_30
           Type: StoreColumn
           DataType: Int16
-          Value: 0
         - Name: /PART_COLOR_31
           Type: StoreColumn
           DataType: Int16
-          Value: 0
   - Class: Reference
     Target: ns=29;i=30
     Direction: Forward
@@ -2525,19 +1925,16 @@ Children:
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: MaxColumnCount
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
-    Value: 0
   - Name: DataTypeCompatibilityMap
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
-    Value: {"Type":12,"Dimensions":[0,0],"Body":[]}
   - Name: Status
     Type: PropertyType
     DataType: StoreStatus
@@ -2579,4 +1976,3 @@ Children:
   - Name: InMemory
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false

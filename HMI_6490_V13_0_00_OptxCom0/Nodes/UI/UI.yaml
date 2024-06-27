@@ -24,7 +24,6 @@ Children:
   - Name: InteractiveColorGradientPercent
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
   - Name: InteractiveDropShadowSize
     Type: BaseDataVariableType
     DataType: Size
@@ -52,7 +51,6 @@ Children:
   - Name: FontFamily
     Type: BaseDataVariableType
     DataType: Font
-    Value: ""
   - Name: ButtonStyles
     Type: BaseObjectType
     Children:
@@ -177,15 +175,12 @@ Children:
       - Name: BorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: PressedTextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: Radius
         Type: BaseDataVariableType
         DataType: Size
@@ -193,7 +188,6 @@ Children:
       - Name: FocusBorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: TextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -238,7 +232,6 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: Color
         Type: BaseDataVariableType
         DataType: Color
@@ -254,7 +247,6 @@ Children:
       - Name: FontItalic
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: FocusBorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -287,7 +279,6 @@ Children:
       - Name: SelectionTextColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: FocusTextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -299,11 +290,9 @@ Children:
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
       - Name: FocusBorderColor
         Type: BaseDataVariableType
         DataType: Color
-        Value: "#00000000"
   - Name: SwitchStyles
     Type: BaseObjectType
     Children:
@@ -329,7 +318,6 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: BackgroundColor
         Type: BaseDataVariableType
         DataType: Color
@@ -368,7 +356,6 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: HandleBorderColor
         Type: BaseDataVariableType
         DataType: Color
@@ -397,11 +384,9 @@ Children:
       - Name: HandleBorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: ToolTipTextColor
         Type: BaseDataVariableType
         DataType: Color
@@ -428,7 +413,6 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: ForegroundColor
         Type: BaseDataVariableType
         DataType: Color
@@ -451,7 +435,6 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: ToolTipBackgroundColor
         Type: BaseDataVariableType
         DataType: Color
@@ -535,7 +518,6 @@ Children:
       - Name: BorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: SelectionBackgroundColor
         Type: BaseDataVariableType
         DataType: Color
@@ -570,11 +552,9 @@ Children:
       - Name: AutoHide
         Type: BaseDataVariableType
         DataType: Boolean
-        Value: false
       - Name: HandleBorderWidth
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: HandleRadius
         Type: BaseDataVariableType
         DataType: Size
@@ -585,7 +565,6 @@ Children:
       - Name: Size
         Type: BaseDataVariableType
         DataType: Size
-        Value: 0.0
       - Name: AutoHide
         Type: BaseDataVariableType
         DataType: Boolean
@@ -684,7 +663,6 @@ Children:
   - Name: FontItalic
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: Radius
     Type: BaseDataVariableType
     DataType: Size

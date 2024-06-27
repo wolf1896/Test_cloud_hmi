@@ -13,7 +13,6 @@ Children:
 - Name: Mix_ActiveMessageNumber
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -27,7 +26,6 @@ Children:
 - Name: Mix_SimulationEnable
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
 - Name: Alarm
   Id: g=d0b340f3b4212e4e6bb101dae728c394
   Supertype: OffNormalAlarmController
@@ -44,16 +42,13 @@ Children:
   - Name: NormalStateValue
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
   - Name: InputValue
     Type: BaseDataVariableType
     DataType: Double
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -135,11 +130,9 @@ Children:
   - Name: Array
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: Bit
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Class: Reference
     Type: GeneratesEvent
     Target: g=d81025933a159a2834f3ecd1924cd334
@@ -150,7 +143,15 @@ Children:
   - Name: Gravity
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
+  - Class: Reference
+    Target: ns=25;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=25;i=135
+    Direction: Forward
 - Name: Mix_MechanicalSettings
   Id: g=40c73bf27d7745f55535ff9f7db00c40
   Supertype: BaseObjectType
@@ -158,7 +159,6 @@ Children:
   - Name: Number
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: Name
     Type: BaseDataVariableType
     DataType: String
@@ -167,7 +167,6 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -200,7 +199,6 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -228,12 +226,10 @@ Children:
   - Name: Color
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -265,12 +261,10 @@ Children:
   - Name: Status
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -312,7 +306,6 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -349,20 +342,16 @@ Children:
   - Name: ShieldNumber
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: index
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: Force
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -390,12 +379,10 @@ Children:
   - Name: OutputType
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -437,7 +424,6 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -465,7 +451,6 @@ Children:
 - Name: Mix_SerialNumber
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -480,7 +465,6 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Description: {"LocaleId":"en-US","Text":"False = Right; True = Left"}
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -500,12 +484,10 @@ Children:
     DataType: Int32
     ValueRank: OneDimension
     ArrayDimensions: [16]
-    Value: [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -533,12 +515,10 @@ Children:
   - Name: MaxValue
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -566,12 +546,10 @@ Children:
   - Name: MinValue
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -604,7 +582,6 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -632,7 +609,6 @@ Children:
   - Name: Index
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
 - Name: OEE_Snapshot
   Type: BaseObjectType
 - Name: ServiceKit
@@ -642,12 +618,10 @@ Children:
   - Name: Cmd_Enable
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -675,12 +649,10 @@ Children:
   - Name: Cmd_Reset
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -708,12 +680,10 @@ Children:
   - Name: Sts_TimeExpired
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -741,12 +711,10 @@ Children:
   - Name: Par_WorkedHoursCheck
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -774,12 +742,10 @@ Children:
   - Name: Sts_MillionsCyclesPerformed
     Type: BaseDataVariableType
     DataType: Float
-    Value: 0.0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -807,12 +773,10 @@ Children:
   - Name: Sts_WorkTimeSec
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -840,12 +804,10 @@ Children:
   - Name: Sts_GlobalWorkTime
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -873,12 +835,10 @@ Children:
   - Name: Sts_WorkTimeHour
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -911,7 +871,6 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -939,14 +898,12 @@ Children:
   - Name: Index
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
 - Name: Mix_DateTime
   Type: BaseObjectType
   Children:
   - Name: Hand_Shake
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -960,7 +917,6 @@ Children:
 - Name: Mix_SetDateTimeCMD
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink

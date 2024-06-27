@@ -4,7 +4,6 @@ Children:
 - Name: Recipe_ActualName
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -18,7 +17,6 @@ Children:
 - Name: Recipe_ActualNumber
   Type: BaseDataVariableType
   DataType: UInt32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -32,7 +30,6 @@ Children:
 - Name: Recipe_SelectedName
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -47,7 +44,6 @@ Children:
   Id: g=3c5ba391e0b64ba70148f30a4ca5f497
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -61,12 +57,10 @@ Children:
 - Name: Recipe_SelectedMarker
   Type: BaseDataVariableType
   DataType: Int16
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: ""
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -92,7 +86,6 @@ Children:
 - Name: Recipe_DestinationName
   Type: BaseDataVariableType
   DataType: String
-  Value: ""
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -107,7 +100,6 @@ Children:
   Id: g=6f9d3191fd15fcd013bf727b8de4dea9
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -121,12 +113,10 @@ Children:
 - Name: Recipe_DestinationMarker
   Type: BaseDataVariableType
   DataType: Int16
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
     DataType: NodePath
-    Value: ""
     Children:
     - Name: Mode
       Type: BaseVariableType
@@ -152,7 +142,6 @@ Children:
 - Name: Recipe_LoadCmd
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -167,7 +156,6 @@ Children:
   Id: g=6f86d980265ac138dfb7075780154b0c
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -181,7 +169,6 @@ Children:
 - Name: Recipe_LoadEnable
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -196,7 +183,6 @@ Children:
   Id: g=d7f629c0b2ef09239da159e8ad069274
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -210,7 +196,6 @@ Children:
 - Name: Recipe_CopyEnable
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -225,7 +210,6 @@ Children:
   Id: g=f1753796fafff0364c66f1529c1ce67e
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -239,7 +223,6 @@ Children:
 - Name: Recipe_DeleteEnable
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -254,7 +237,6 @@ Children:
   Id: g=07b1ed86f72a7d2ed5e7182cee361205
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -268,7 +250,6 @@ Children:
 - Name: Recipe_RestoreEnable
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -283,7 +264,6 @@ Children:
   Id: g=f26c09fc9aaa444ad2a3092e9c7bcca9
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -297,7 +277,6 @@ Children:
 - Name: Recipe_CompareEnable
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -311,7 +290,6 @@ Children:
 - Name: Recipe_BackupEnable
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -325,7 +303,6 @@ Children:
 - Name: Recipe_BackupLoadCmd_fromPLC
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -339,7 +316,6 @@ Children:
 - Name: Recipe_BackupLoadDone_toPLC
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -353,7 +329,6 @@ Children:
 - Name: Recipe_BackupSaveCmd_fromPLC
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -367,7 +342,6 @@ Children:
 - Name: Recipe_BackupSaveDone_toPLC
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -381,7 +355,6 @@ Children:
 - Name: Recipe_BackupMode
   Type: BaseDataVariableType
   DataType: Boolean
-  Value: false
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -395,7 +368,6 @@ Children:
 - Name: Recipe_BackupScan
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -414,7 +386,6 @@ Children:
   - Name: Number
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: Name
     Type: BaseDataVariableType
     DataType: String
@@ -423,7 +394,6 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -451,12 +421,10 @@ Children:
   - Name: Marker
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType

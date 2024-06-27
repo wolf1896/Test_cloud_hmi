@@ -55,11 +55,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\local.admin\\Desktop\\HMI\\WIP\\HMI_6490_V13_0_00_OptxCom0\\ProjectFiles\\NetSolution\\HMI_6490_V13_0_00_OptxCom0.csproj",
+      "projectUniqueName": "C:\\Users\\local.admin\\Desktop\\HMI\\Test_git\\Test_cloud_hmi\\HMI_6490_V13_0_00_OptxCom0\\ProjectFiles\\NetSolution\\HMI_6490_V13_0_00_OptxCom0.csproj",
       "projectName": "HMI_6490_V13_0_00_OptxCom0",
-      "projectPath": "C:\\Users\\local.admin\\Desktop\\HMI\\WIP\\HMI_6490_V13_0_00_OptxCom0\\ProjectFiles\\NetSolution\\HMI_6490_V13_0_00_OptxCom0.csproj",
+      "projectPath": "C:\\Users\\local.admin\\Desktop\\HMI\\Test_git\\Test_cloud_hmi\\HMI_6490_V13_0_00_OptxCom0\\ProjectFiles\\NetSolution\\HMI_6490_V13_0_00_OptxCom0.csproj",
       "packagesPath": "C:\\Users\\local.admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\local.admin\\Desktop\\HMI\\WIP\\HMI_6490_V13_0_00_OptxCom0\\ProjectFiles\\NetSolution\\obj\\",
+      "outputPath": "C:\\Users\\local.admin\\Desktop\\HMI\\Test_git\\Test_cloud_hmi\\HMI_6490_V13_0_00_OptxCom0\\ProjectFiles\\NetSolution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\local.admin\\AppData\\Roaming\\NuGet\\NuGet.Config"

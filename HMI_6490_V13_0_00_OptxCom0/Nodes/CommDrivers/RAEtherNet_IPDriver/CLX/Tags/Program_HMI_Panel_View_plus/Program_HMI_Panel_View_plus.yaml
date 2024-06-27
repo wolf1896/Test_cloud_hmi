@@ -4,7 +4,6 @@ Children:
 - Name: PlcName
   Type: RAEtherNetIPTag
   DataType: String
-  Value: ""
   Children:
   - Name: SymbolName
     Type: BaseDataVariableType
