@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ElLKLoZBL9PBsJLRvzJmP5LnyOijQq0mRVlP4YiRPBeW9LIWRmUnRU8uxF9peAsPtLFMpCLeJXR2Tl/y/MbSVg==",
+  "dgSpecHash": "Cg3LUQpbnj1fyoeRFPICrV3gyJZNjwsr5vW6dkPWAmcaYKYbQ7KQc0ixx/wdhsdF3uSWk1LL3WfyIN7CVE6TeA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\local.admin\\Desktop\\HMI\\WIP\\HMI_6490_V13_0_00_OptxCom0\\ProjectFiles\\NetSolution\\HMI_6490_V13_0_00_OptxCom0.csproj",
+  "projectFilePath": "C:\\Users\\local.admin\\Desktop\\HMI\\Test_git\\Test_cloud_hmi\\HMI_6490_V13_0_00_OptxCom0\\ProjectFiles\\NetSolution\\HMI_6490_V13_0_00_OptxCom0.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\local.admin\\.nuget\\packages\\fluentftp\\50.0.1\\fluentftp.50.0.1.nupkg.sha512",
     "C:\\Users\\local.admin\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",

@@ -1,0 +1,17 @@
+Project C:\Users\local.admin\Desktop\HMI\Test_git\Test_cloud_hmi\HMI_6490_V13_0_00_OptxCom0\HMI_6490_V13_0_00_OptxCom0.optix upgraded on 27-06-2024 16:37:21.854
+
+Upgraded modules:
+FTOptix.CoreBase: from 3.1 to 4.0
+FTOptix.UI.Net: from 11.0 to 12.4
+FTOptix.UI: from 11.0 to 12.4
+FTOptix.CommunicationDriver: from 2.0 to 2.1
+FTOptix.CommunicationDriver.Net: from 2.0 to 2.1
+FTOptix.HMIProject: from 5.3 to 6.1
+FTOptix.Alarm: from 2.0 to 4.0
+FTOptix.Alarm.Net: from 1.0 to 1.2
+FTOptix.NetLogic: from 1.0 to 3.0
+FTOptix.RAEtherNetIP: from 2.1 to 3.0
+
+No potential breaking changes detected
+
+

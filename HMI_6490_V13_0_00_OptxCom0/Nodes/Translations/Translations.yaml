@@ -2153,7 +2153,6 @@ Children:
   - Name: WrapFields
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: LocalizationDictionary
     Type: NodePointer
     DataType: NodeId

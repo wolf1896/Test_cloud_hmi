@@ -8,16 +8,13 @@ Children:
   - Name: Number
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: X
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -45,12 +42,10 @@ Children:
   - Name: Y
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -78,12 +73,10 @@ Children:
   - Name: R
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -111,12 +104,10 @@ Children:
   - Name: FaultCode
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -144,12 +135,10 @@ Children:
   - Name: LinearPos
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: ""
       Children:
       - Name: Mode
         Type: BaseVariableType
@@ -181,60 +170,45 @@ Children:
   - Name: State
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: TotalPath
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: DCLinkVoltage
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: AuxiliaryVoltage
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: MoverInErrorID
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: MoverInErrorCode
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: HomeDone
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: RunConsent
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: RecoveryInProgress
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: CounterKmReset
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: MoverNumber
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
   - Name: MinLoad
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: MedLoad
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: MaxLoad
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: CounterKmExpired
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false

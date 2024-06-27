@@ -6,7 +6,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Type: BaseObjectType
     Children:
     - Name: Pair1
@@ -70,7 +70,6 @@ Children:
       - Name: Key
         Type: BaseDataVariableType
         DataType: Int16
-        Value: 0
       - Name: Value
         Type: BaseDataVariableType
         DataType: LocalizedText
@@ -80,7 +79,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Type: BaseObjectType
     Children:
     - Name: Pair
@@ -89,7 +88,6 @@ Children:
       - Name: Key
         Type: BaseDataVariableType
         DataType: Int16
-        Value: 0
       - Name: Value
         Type: BaseDataVariableType
         DataType: LocalizedText
@@ -264,7 +262,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Type: BaseObjectType
     ModellingRule: None
     Children:
@@ -444,18 +442,16 @@ Children:
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
-        Value: 0
       - Name: Value
         Type: BaseDataVariableType
         DataType: Color
         ModellingRule: None
-        Value: "#00000000"
 - Name: StatusMessage
   Id: g=cb976a276680358d6467762aca0b8d0a
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Type: BaseObjectType
     ModellingRule: None
     Children:
@@ -1024,7 +1020,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Type: BaseObjectType
     ModellingRule: None
     Children:
@@ -1036,7 +1032,6 @@ Children:
         Type: BaseDataVariableType
         DataType: Int16
         ModellingRule: None
-        Value: 0
       - Name: Value
         Type: BaseDataVariableType
         DataType: ResourceUri
@@ -1487,7 +1482,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Type: BaseObjectType
     ModellingRule: None
     Children:
@@ -1499,7 +1494,6 @@ Children:
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
-        Value: 0
       - Name: Value
         Type: BaseDataVariableType
         DataType: LocalizedText
@@ -5990,13 +5984,12 @@ Children:
     DataType: DynamicLinkMode
     ReferenceType: HasComponent
     ModellingRule: Optional
-    Value: 0
 - Name: HelpGlobal
   Id: g=6b3702e85b4e4b439fa3607ff2ac9e20
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Type: BaseObjectType
     ModellingRule: None
     Children:
@@ -6008,7 +6001,6 @@ Children:
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
-        Value: 0
       - Name: Value
         Type: BaseDataVariableType
         DataType: LocalizedText
@@ -6915,13 +6907,12 @@ Children:
     DataType: DynamicLinkMode
     ReferenceType: HasComponent
     ModellingRule: Optional
-    Value: 0
 - Name: StatusMessage_XTS
   Id: g=91c4b02e023529c64c365e6a6d772766
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Type: BaseObjectType
     ModellingRule: None
     Children:
@@ -6933,7 +6924,6 @@ Children:
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
-        Value: 0
       - Name: Value
         Type: BaseDataVariableType
         DataType: LocalizedText
@@ -7210,7 +7200,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Type: BaseObjectType
     ModellingRule: None
     Children:
@@ -7222,7 +7212,6 @@ Children:
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
-        Value: 0
       - Name: Value
         Type: BaseDataVariableType
         DataType: String
@@ -7275,7 +7264,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Type: BaseObjectType
     ModellingRule: None
     Children:
@@ -7287,7 +7276,6 @@ Children:
         Type: BaseDataVariableType
         DataType: UInt16
         ModellingRule: None
-        Value: 0
       - Name: Value
         Type: BaseDataVariableType
         DataType: Color
@@ -7438,7 +7426,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=3;Pairs
     Type: BaseObjectType
     ModellingRule: None
     Children:
@@ -7450,7 +7438,6 @@ Children:
         Type: BaseDataVariableType
         DataType: UInt32
         ModellingRule: None
-        Value: 0
       - Name: Value
         Type: BaseDataVariableType
         DataType: LocalizedText

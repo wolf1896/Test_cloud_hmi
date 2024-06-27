@@ -4,7 +4,6 @@ Children:
 - Name: OMAC_Mode
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink
@@ -18,7 +17,6 @@ Children:
 - Name: OMAC_State
   Type: BaseDataVariableType
   DataType: Int32
-  Value: 0
   Children:
   - Name: DynamicLink
     Type: DynamicLink

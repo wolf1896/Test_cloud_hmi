@@ -72,17 +72,14 @@ Children:
     Type: BaseDataVariableType
     DataType: Byte
     AccessLevel: Read
-    Value: 0
   - Name: Message
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
-    Value: ""
   - Name: LastAppliedRecipe
     Type: BaseDataVariableType
     DataType: String
     AccessLevel: Read
-    Value: ""
   - Name: RecipeSchema
     Type: NodePointer
     DataType: NodeId
@@ -103,7 +100,6 @@ Children:
   - Name: WrapFields
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: RecipeName
     Type: BaseDataVariableType
     DataType: String
@@ -139,23 +135,18 @@ Children:
   - Name: ErrorPolicy
     Type: BaseDataVariableType
     DataType: CopyErrorPolicy
-    Value: 0
   - Name: ApplyFromDBTrigger
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: ApplyFromEditModelTrigger
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: DeleteTrigger
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: ExportTrigger
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -169,11 +160,9 @@ Children:
   - Name: ImportTrigger
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: LoadFromPLCTrigger
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -187,7 +176,6 @@ Children:
   - Name: SaveToDBTrigger
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -201,7 +189,6 @@ Children:
   - Name: SelectFromDBTrigger
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
   - Name: ApplyFromDBTriggerTransitioned1
     Type: VariableTransitionEventDispatcher
     Children:
@@ -212,7 +199,6 @@ Children:
     - Name: Transition
       Type: BaseVariableType
       DataType: VariableTransition
-      Value: 0
     - Name: VariableNodePath
       Type: BaseVariableType
       DataType: NodePath
@@ -233,7 +219,6 @@ Children:
           - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
               Type: PropertyType
@@ -258,7 +243,6 @@ Children:
             - Name: RecipeName
               Type: BaseDataVariableType
               DataType: String
-              Value: ""
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -272,7 +256,6 @@ Children:
             - Name: ErrorPolicy
               Type: BaseDataVariableType
               DataType: CopyErrorPolicy
-              Value: 0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -289,7 +272,6 @@ Children:
         - Name: VariableNodeId
           Type: BaseVariableType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: NewValue
           Type: BaseVariableType
           DataType: BaseDataType
@@ -299,35 +281,27 @@ Children:
         - Name: EventId
           Type: PropertyType
           DataType: ByteString
-          Value: ""
         - Name: EventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceNode
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceName
           Type: PropertyType
           DataType: String
-          Value: ""
         - Name: Time
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: ReceiveTime
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Message
           Type: PropertyType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
-          Value: 0
   - Name: ApplyFromEditModelTriggerTransitioned1
     Type: VariableTransitionEventDispatcher
     Children:
@@ -338,7 +312,6 @@ Children:
     - Name: Transition
       Type: BaseVariableType
       DataType: VariableTransition
-      Value: 0
     - Name: VariableNodePath
       Type: BaseVariableType
       DataType: NodePath
@@ -359,7 +332,6 @@ Children:
           - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
               Type: PropertyType
@@ -384,7 +356,6 @@ Children:
             - Name: ErrorPolicy
               Type: BaseDataVariableType
               DataType: CopyErrorPolicy
-              Value: 0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -401,7 +372,6 @@ Children:
         - Name: VariableNodeId
           Type: BaseVariableType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: NewValue
           Type: BaseVariableType
           DataType: BaseDataType
@@ -411,35 +381,27 @@ Children:
         - Name: EventId
           Type: PropertyType
           DataType: ByteString
-          Value: ""
         - Name: EventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceNode
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceName
           Type: PropertyType
           DataType: String
-          Value: ""
         - Name: Time
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: ReceiveTime
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Message
           Type: PropertyType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
-          Value: 0
   - Name: DeleteTriggerTransitioned1
     Type: VariableTransitionEventDispatcher
     Children:
@@ -450,7 +412,6 @@ Children:
     - Name: Transition
       Type: BaseVariableType
       DataType: VariableTransition
-      Value: 0
     - Name: VariableNodePath
       Type: BaseVariableType
       DataType: NodePath
@@ -471,7 +432,6 @@ Children:
           - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
               Type: PropertyType
@@ -496,7 +456,6 @@ Children:
             - Name: RecipeName
               Type: BaseDataVariableType
               DataType: String
-              Value: ""
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -513,7 +472,6 @@ Children:
         - Name: VariableNodeId
           Type: BaseVariableType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: NewValue
           Type: BaseVariableType
           DataType: BaseDataType
@@ -523,35 +481,27 @@ Children:
         - Name: EventId
           Type: PropertyType
           DataType: ByteString
-          Value: ""
         - Name: EventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceNode
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceName
           Type: PropertyType
           DataType: String
-          Value: ""
         - Name: Time
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: ReceiveTime
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Message
           Type: PropertyType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
-          Value: 0
   - Name: ExportTriggerTransitioned1
     Type: VariableTransitionEventDispatcher
     Children:
@@ -562,7 +512,6 @@ Children:
     - Name: Transition
       Type: BaseVariableType
       DataType: VariableTransition
-      Value: 0
     - Name: VariableNodePath
       Type: BaseVariableType
       DataType: NodePath
@@ -583,7 +532,6 @@ Children:
           - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
               Type: PropertyType
@@ -608,7 +556,6 @@ Children:
         - Name: VariableNodeId
           Type: BaseVariableType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: NewValue
           Type: BaseVariableType
           DataType: BaseDataType
@@ -618,35 +565,27 @@ Children:
         - Name: EventId
           Type: PropertyType
           DataType: ByteString
-          Value: ""
         - Name: EventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceNode
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceName
           Type: PropertyType
           DataType: String
-          Value: ""
         - Name: Time
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: ReceiveTime
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Message
           Type: PropertyType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
-          Value: 0
   - Name: ImportTriggerTransitioned1
     Type: VariableTransitionEventDispatcher
     Children:
@@ -657,7 +596,6 @@ Children:
     - Name: Transition
       Type: BaseVariableType
       DataType: VariableTransition
-      Value: 0
     - Name: VariableNodePath
       Type: BaseVariableType
       DataType: NodePath
@@ -678,7 +616,6 @@ Children:
           - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
               Type: PropertyType
@@ -703,7 +640,6 @@ Children:
         - Name: VariableNodeId
           Type: BaseVariableType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: NewValue
           Type: BaseVariableType
           DataType: BaseDataType
@@ -713,35 +649,27 @@ Children:
         - Name: EventId
           Type: PropertyType
           DataType: ByteString
-          Value: ""
         - Name: EventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceNode
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceName
           Type: PropertyType
           DataType: String
-          Value: ""
         - Name: Time
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: ReceiveTime
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Message
           Type: PropertyType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
-          Value: 0
   - Name: LoadFromPLCTriggerTransitioned1
     Type: VariableTransitionEventDispatcher
     Children:
@@ -752,7 +680,6 @@ Children:
     - Name: Transition
       Type: BaseVariableType
       DataType: VariableTransition
-      Value: 0
     - Name: VariableNodePath
       Type: BaseVariableType
       DataType: NodePath
@@ -773,7 +700,6 @@ Children:
           - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
               Type: PropertyType
@@ -798,7 +724,6 @@ Children:
             - Name: ErrorPolicy
               Type: BaseDataVariableType
               DataType: CopyErrorPolicy
-              Value: 0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -815,7 +740,6 @@ Children:
         - Name: VariableNodeId
           Type: BaseVariableType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: NewValue
           Type: BaseVariableType
           DataType: BaseDataType
@@ -825,35 +749,27 @@ Children:
         - Name: EventId
           Type: PropertyType
           DataType: ByteString
-          Value: ""
         - Name: EventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceNode
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceName
           Type: PropertyType
           DataType: String
-          Value: ""
         - Name: Time
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: ReceiveTime
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Message
           Type: PropertyType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
-          Value: 0
   - Name: SaveToDBTriggerTransitioned1
     Type: VariableTransitionEventDispatcher
     Children:
@@ -864,7 +780,6 @@ Children:
     - Name: Transition
       Type: BaseVariableType
       DataType: VariableTransition
-      Value: 0
     - Name: VariableNodePath
       Type: BaseVariableType
       DataType: NodePath
@@ -885,7 +800,6 @@ Children:
           - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
               Type: PropertyType
@@ -910,7 +824,6 @@ Children:
             - Name: RecipeName
               Type: BaseDataVariableType
               DataType: String
-              Value: ""
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -924,7 +837,6 @@ Children:
             - Name: ErrorPolicy
               Type: BaseDataVariableType
               DataType: CopyErrorPolicy
-              Value: 0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -941,7 +853,6 @@ Children:
         - Name: VariableNodeId
           Type: BaseVariableType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: NewValue
           Type: BaseVariableType
           DataType: BaseDataType
@@ -951,35 +862,27 @@ Children:
         - Name: EventId
           Type: PropertyType
           DataType: ByteString
-          Value: ""
         - Name: EventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceNode
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceName
           Type: PropertyType
           DataType: String
-          Value: ""
         - Name: Time
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: ReceiveTime
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Message
           Type: PropertyType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
-          Value: 0
   - Name: SelectFromDBTriggerTransitioned1
     Type: VariableTransitionEventDispatcher
     Children:
@@ -990,7 +893,6 @@ Children:
     - Name: Transition
       Type: BaseVariableType
       DataType: VariableTransition
-      Value: 0
     - Name: VariableNodePath
       Type: BaseVariableType
       DataType: NodePath
@@ -1011,7 +913,6 @@ Children:
           - Name: ns=3;ObjectPointer
             Type: NodePointer
             DataType: NodeId
-            Value: {"IdType":0,"Id":0,"Namespace":-1}
             Children:
             - Name: Kind
               Type: PropertyType
@@ -1036,7 +937,6 @@ Children:
             - Name: RecipeName
               Type: BaseDataVariableType
               DataType: String
-              Value: ""
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -1050,7 +950,6 @@ Children:
             - Name: ErrorPolicy
               Type: BaseDataVariableType
               DataType: CopyErrorPolicy
-              Value: 0
               Children:
               - Name: DynamicLink
                 Type: DynamicLink
@@ -1067,7 +966,6 @@ Children:
         - Name: VariableNodeId
           Type: BaseVariableType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: NewValue
           Type: BaseVariableType
           DataType: BaseDataType
@@ -1077,35 +975,27 @@ Children:
         - Name: EventId
           Type: PropertyType
           DataType: ByteString
-          Value: ""
         - Name: EventType
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceNode
           Type: PropertyType
           DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
         - Name: SourceName
           Type: PropertyType
           DataType: String
-          Value: ""
         - Name: Time
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: ReceiveTime
           Type: PropertyType
           DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
         - Name: Message
           Type: PropertyType
           DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
         - Name: Severity
           Type: PropertyType
           DataType: UInt16
-          Value: 0
   - Name: RecipeControllerCreatedAndSaved
     Type: BaseDataVariableType
     DataType: LocalizedText
@@ -1194,7 +1084,6 @@ Children:
   - Name: LoadFromPLCDone
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1208,7 +1097,6 @@ Children:
   - Name: SaveToDBDone
     Type: BaseDataVariableType
     DataType: Boolean
-    Value: false
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1247,7 +1135,6 @@ Children:
   - Name: SetSystemTime
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
   - Name: year
     Type: BaseDataVariableType
     DataType: Int32
@@ -1265,7 +1152,6 @@ Children:
   - Name: month
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1279,7 +1165,6 @@ Children:
   - Name: day
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1293,7 +1178,6 @@ Children:
   - Name: hour
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1307,7 +1191,6 @@ Children:
   - Name: minute
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1321,7 +1204,6 @@ Children:
   - Name: second
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1337,11 +1219,9 @@ Children:
   - Name: SetPLCDate
     Type: BaseDataVariableType
     DataType: DateTime
-    Value: "1601-01-01T00:00:00.0000000"
   - Name: SetSecond
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1355,7 +1235,6 @@ Children:
   - Name: SetHour
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1369,7 +1248,6 @@ Children:
   - Name: SetMinute
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1383,7 +1261,6 @@ Children:
   - Name: SetMonth
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1397,7 +1274,6 @@ Children:
   - Name: SetDay
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
@@ -1411,7 +1287,6 @@ Children:
   - Name: SetYear
     Type: BaseDataVariableType
     DataType: Int32
-    Value: 0
     Children:
     - Name: DynamicLink
       Type: DynamicLink
